@@ -1,0 +1,520 @@
+[
+  {
+    "page": "DesignbyUs",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "input_ff25365bf25d0",
+        "label": "이름",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber1_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber2_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber3_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "email_848NM88J5G",
+        "label": "이메일",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_ea83387905491",
+        "label": "맥주 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "스노이",
+            "label": "스노이"
+          },
+          {
+            "value": "블랙스노이",
+            "label": "블랙스노이"
+          },
+          {
+            "value": "치고이너바이젠",
+            "label": "치고이너바이젠"
+          },
+          {
+            "value": "썬라이즈",
+            "label": "썬라이즈"
+          },
+          {
+            "value": "분나",
+            "label": "분나"
+          },
+          {
+            "value": "고담",
+            "label": "고담"
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_A63527q2a7",
+        "label": "디자인 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "테마1계절_봄1",
+            "label": "테마1계절_봄1"
+          },
+          {
+            "value": "테마1계절_봄2",
+            "label": "테마1계절_봄2"
+          },
+          {
+            "value": "테마1계절_여름1",
+            "label": "테마1계절_여름1"
+          },
+          {
+            "value": "테마1계절_여름2",
+            "label": "테마1계절_여름2"
+          },
+          {
+            "value": "테마1계절_가을1",
+            "label": "테마1계절_가을1"
+          },
+          {
+            "value": "테마1계절_가을2",
+            "label": "테마1계절_가을2"
+          },
+          {
+            "value": "테마1계절_겨울1",
+            "label": "테마1계절_겨울1"
+          },
+          {
+            "value": "테마1계절_겨울2",
+            "label": "테마1계절_겨울2"
+          },
+          {
+            "value": "테마2그림_골드블루",
+            "label": "테마2그림_골드블루"
+          },
+          {
+            "value": "테마2그림_나비",
+            "label": "테마2그림_나비"
+          },
+          {
+            "value": "테마2그림_드로잉",
+            "label": "테마2그림_드로잉"
+          },
+          {
+            "value": "테마2그림_사람들",
+            "label": "테마2그림_사람들"
+          },
+          {
+            "value": "테마2그림_오로라",
+            "label": "테마2그림_오로라"
+          },
+          {
+            "value": "테마2그림_카니발1",
+            "label": "테마2그림_카니발1"
+          },
+          {
+            "value": "테마2그림_카니발2",
+            "label": "테마2그림_카니발2"
+          },
+          {
+            "value": "테마2그림_캠핑",
+            "label": "테마2그림_캠핑"
+          },
+          {
+            "value": "테마2그림_핑크블루",
+            "label": "테마2그림_핑크블루"
+          },
+          {
+            "value": "테마2그림_힘내",
+            "label": "테마2그림_힘내"
+          },
+          {
+            "value": "테마3기념일_생일1",
+            "label": "테마3기념일_생일1"
+          },
+          {
+            "value": "테마3기념일_생일2",
+            "label": "테마3기념일_생일2"
+          },
+          {
+            "value": "테마3기념일_크리스마스1",
+            "label": "테마3기념일_크리스마스1"
+          },
+          {
+            "value": "테마3기념일_크리스마스2",
+            "label": "테마3기념일_크리스마스2"
+          },
+          {
+            "value": "테마3기념일_크리스마스3",
+            "label": "테마3기념일_크리스마스3"
+          },
+          {
+            "value": "테마3기념일_할로윈1",
+            "label": "테마3기념일_할로윈1"
+          },
+          {
+            "value": "테마3기념일_할로윈2",
+            "label": "테마3기념일_할로윈2"
+          },
+          {
+            "value": "테마4복고_레트로1",
+            "label": "테마4복고_레트로1"
+          },
+          {
+            "value": "테마4복고_레트로2",
+            "label": "테마4복고_레트로2"
+          },
+          {
+            "value": "테마4복고_레트로3",
+            "label": "테마4복고_레트로3"
+          },
+          {
+            "value": "테마4복고_레트로4",
+            "label": "테마4복고_레트로4"
+          },
+          {
+            "value": "테마4복고_레트로5",
+            "label": "테마4복고_레트로5"
+          },
+          {
+            "value": "테마4복고_레트로6",
+            "label": "테마4복고_레트로6"
+          },
+          {
+            "value": "테마5심플_다크블루",
+            "label": "테마5심플_다크블루"
+          },
+          {
+            "value": "테마5심플_레인보우",
+            "label": "테마5심플_레인보우"
+          },
+          {
+            "value": "테마5심플_메가트론",
+            "label": "테마5심플_메가트론"
+          },
+          {
+            "value": "테마5심플_블루마블",
+            "label": "테마5심플_블루마블"
+          },
+          {
+            "value": "테마5심플_솜사탕",
+            "label": "테마5심플_솜사탕"
+          },
+          {
+            "value": "테마5심플_써클",
+            "label": "테마5심플_써클"
+          },
+          {
+            "value": "테마5심플_청록",
+            "label": "테마5심플_청록"
+          },
+          {
+            "value": "테마5심플_퍼플",
+            "label": "테마5심플_퍼플"
+          },
+          {
+            "value": "테마5심플_핑크골드",
+            "label": "테마5심플_핑크골드"
+          },
+          {
+            "value": "테마5심플_핑크그린",
+            "label": "테마5심플_핑크그린"
+          },
+          {
+            "value": "테마5심플_블랙마블",
+            "label": "테마5심플_블랙마블"
+          },
+          {
+            "value": "테마6자연_골드리프",
+            "label": "테마6자연_골드리프"
+          },
+          {
+            "value": "테마6자연_리스",
+            "label": "테마6자연_리스"
+          },
+          {
+            "value": "테마6자연_바다",
+            "label": "테마6자연_바다"
+          },
+          {
+            "value": "테마6자연_일출",
+            "label": "테마6자연_일출"
+          },
+          {
+            "value": "테마6자연_트로피컬1",
+            "label": "테마6자연_트로피컬1"
+          },
+          {
+            "value": "테마6자연_트로피컬2",
+            "label": "테마6자연_트로피컬2"
+          },
+          {
+            "value": "테마6자연_플라워",
+            "label": "테마6자연_플라워"
+          },
+          {
+            "value": "테마6자연_홉",
+            "label": "테마6자연_홉"
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_lfU2e1AI82",
+        "label": "재질 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "필름지",
+            "label": "필름지"
+          },
+          {
+            "value": "라벨지",
+            "label": "라벨지"
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_Pq2TNnx751",
+        "label": "수량 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "300",
+            "label": "300"
+          },
+          {
+            "value": "420",
+            "label": "420"
+          },
+          {
+            "value": "510",
+            "label": "510"
+          },
+          {
+            "value": "600",
+            "label": "600"
+          },
+          {
+            "value": "720",
+            "label": "720"
+          },
+          {
+            "value": "810",
+            "label": "810"
+          },
+          {
+            "value": "990",
+            "label": "990"
+          },
+          {
+            "value": "1290",
+            "label": "1290"
+          }
+        ]
+      },
+      {
+        "tag": "input",
+        "type": "file",
+        "name": "form_file_576TgTZB45",
+        "label": "로고 및 원하는 이미지파일 첨부",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "textarea_1Ib214Ms8Q",
+        "label": "추가요청사항",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "",
+        "label": "개인정보 수집 및 이용 동의",
+        "required": false,
+        "options": []
+      }
+    ],
+    "status": "requires Cafe24 board/form integration; source POST endpoint not reused"
+  },
+  {
+    "page": "DesignYourOwn",
+    "fields": [
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "input_ff25365bf25d0",
+        "label": "이름",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber1_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber2_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "tel",
+        "name": "phonenumber3_49ca9073a70e4",
+        "label": "연락처",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "text",
+        "name": "email_848NM88J5G",
+        "label": "이메일",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_ea83387905491",
+        "label": "맥주 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "스노이",
+            "label": "스노이"
+          },
+          {
+            "value": "블랙스노이",
+            "label": "블랙스노이"
+          },
+          {
+            "value": "치고이너바이젠",
+            "label": "치고이너바이젠"
+          },
+          {
+            "value": "썬라이즈",
+            "label": "썬라이즈"
+          },
+          {
+            "value": "트로피컬에일",
+            "label": "트로피컬에일"
+          },
+          {
+            "value": "자릿골에일",
+            "label": "자릿골에일"
+          }
+        ]
+      },
+      {
+        "tag": "select",
+        "type": "",
+        "name": "select_Pq2TNnx751",
+        "label": "수량 선택",
+        "required": false,
+        "options": [
+          {
+            "value": "",
+            "label": "(선택)"
+          },
+          {
+            "value": "1~200",
+            "label": "1~200"
+          },
+          {
+            "value": "200~999",
+            "label": "200~999"
+          },
+          {
+            "value": "1000~3000",
+            "label": "1000~3000"
+          }
+        ]
+      },
+      {
+        "tag": "textarea",
+        "type": "",
+        "name": "textarea_1Ib214Ms8Q",
+        "label": "추가요청사항",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "",
+        "label": "개인정보 수집 및 이용 동의",
+        "required": false,
+        "options": []
+      },
+      {
+        "tag": "input",
+        "type": "checkbox",
+        "name": "",
+        "label": "개인정보 제3자 제공 동의",
+        "required": false,
+        "options": []
+      }
+    ],
+    "status": "requires Cafe24 board/form integration; source POST endpoint not reused"
+  }
+]

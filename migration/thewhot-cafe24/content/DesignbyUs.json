@@ -1,0 +1,1074 @@
+{
+  "key": "DesignbyUs",
+  "url": "https://www.thewhot.com/DesignbyUs",
+  "final_url": "https://www.thewhot.com/DesignbyUs",
+  "title": "더홋브루어리 -수제맥주 생산 전문기업",
+  "bytes": 615751,
+  "source": "source/DesignbyUs.html",
+  "widgets": [
+    {
+      "type": "inline_logo",
+      "name": "",
+      "text": "더홋브루어리 -수제맥주 생산 전문기업",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_logo"
+      }
+    },
+    {
+      "type": "inline_menu",
+      "name": "",
+      "text": "ABOUT Brand Story Our Process the whot Brewery PRODUCT Year-Round Special & Seasonal Pairing PARTNERSHIP Our Partners Design by Us Design Your Own NEWS Promotion People CONTACT",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_menu"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_menu_btn",
+      "name": "",
+      "text": "MENU",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_menu_btn"
+      }
+    },
+    {
+      "type": "inline_logo",
+      "name": "",
+      "text": "더홋브루어리 -수제맥주 생산 전문기업",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_logo"
+      }
+    },
+    {
+      "type": "inline_login_btn",
+      "name": "",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_login_btn"
+      }
+    },
+    {
+      "type": "inline_search_btn",
+      "name": "",
+      "text": "site search",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_search_btn"
+      }
+    },
+    {
+      "type": "image",
+      "name": "이미지",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "이미지",
+        "data-widget-type": "image",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "sub_menu",
+      "name": "메뉴/카테고리",
+      "text": "Our Partners Design by Us Design Your Own",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "메뉴/카테고리",
+        "data-widget-type": "sub_menu",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "# 1. 맥주 선택 원하시는 맥주를 골라 오른쪽 폼에서 선택해주세요.",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "더보기",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "# 2. 디자인 선택 각 테마별 디자인 확인 후 원하는 디자인을 오른쪽 폼에서 선택해주세요.",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema1. season",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "봄1 봄1 봄2 봄2 여름1 여름1 여름2 여름2 가을1 가을1 가을2 가을2 겨울1 겨울1 겨울2 겨울2",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema2. Picture",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "골드블루 골드블루 나비 나비 드로잉 드로잉 사람들 사람들 오로라 오로라 카니발1 카니발1 카니발2 카니발2 캠핑 캠핑 핑크블루 핑크블루 힘내 힘내",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema3. anniversary",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "생일1 생일1 생일2 생일2 크리스마스1 크리스마스1 크리스마스2 크리스마스2 크리스마스3 크리스마스3 할로윈1 할로윈1 할로윈2 할로윈2",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema4. retro",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "레트로1 레트로1 레트로2 레트로2 레트로3 레트로3 레트로4 레트로4 레트로5 레트로5 레트로6 레트로6",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema5. simple",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "블랙마블 블랙마블 다크블루 다크블루 레인보우 레인보우 메가트론 메가트론 블루마블 블루마블 솜사탕 솜사탕 써클 써클 청록 청록 퍼플 퍼플 핑크골드 핑크골드 핑크그린 핑크그린",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "thema6. nature",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "골드리프 골드리프 리스 리스 바다 바다 일출 일출 트로피컬1 트로피컬1 트로피컬2 트로피컬2 플라워 플라워 홉 홉",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "text",
+      "name": "텍스트",
+      "text": "# 3. 커스터마이징 맥주 주문",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "텍스트",
+        "data-widget-type": "text",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "form",
+      "name": "입력폼",
+      "text": "이름 연락처 - - 이메일 맥주 선택 (선택) 스노이 블랙스노이 치고이너바이젠 썬라이즈 분나 고담 디자인 선택 (선택) 테마1계절_봄1 테마1계절_봄2 테마1계절_여름1 테마1계절_여름2 테마1계절_가을1 테마1계절_가을2 테마1계절_겨울1 테마1계절_겨울2 테마2그림_골드블루 테마2그림_나비 테마2그림_드로잉 테마2그림_사람들 테마2그림_오로라 테마2그림_카니발1 테마2그림_카니발2 테마2그림_캠핑 테마2그림_핑크블루 테마2그림_힘내 테마3기념일_생일1 테마3기념일_생일2 테마3기념일_크리스마스1 테마3기념일_크리스마스2 테마3기념일_크리스마스3 테마3기념일_할로윈1 테마3기념일_할로윈2 테마4복고_레트로1 테마4복고_레트로2 테마4복고_레트로3 테마4복고_레트로4 테마4복고_레트로5 테마4복고_레트로6 테마5심플_다크블루 테마5심플_레인보우 테마5심플_메가트론 테마5심플_블루마블 테마5심플_솜사탕 테마5심플_써클 테마5심플_청록 테마5심플_퍼플 테마5심플_핑크골드 테마5심플_핑크그린 테마5심플_블랙마블 테마6자연_골드리프 테마6자연_리스 테마6자연_바다 테마6자연_일출 테마6자연_트로피컬1 테마6자연_트로피컬2 테마6자연_플라워 테마6자연_홉 재질 선택 (선택) 필름지 라벨지 수량 선택 (선택) 300 420 510 600 720 810 990 1290 로고 및 원하는 이미지파일 첨부 파일 올리기 file upload button () file remove button 추가요청사항 개인정보 수집 및 이용 동의 더홋브루어리(이하 ‘회사’라 한다)는 개인정보 보호법 제30조에 따라 정보 주체의 개인정보를 보호하고 이와 관련한 고충을 신속하고 원활하게 처리할 수 있도록 하기 위하여 다음과 같이 개인정보 처리지침을 수립, 공개합니다. 제1조 (개인정보의 처리목적) 회사는 다음의 목적을 위하여 개인정보를 처리합니다. 처리하고 있는 개인정보는 다음의 목적 이외의 용도로는 이용되지 않으며, 이용 목적이 변경되는 경우에는 개인정보보호법 제18조에 따라 별도의 동의를 받는 등 필요한 조치를 이행할 예정입니다. 1. 홈페이지 회원 가입 및 관리 회원 가입 의사 확인, 회원제 서비스 제공에 따른 본인 식별․인증, 회원자격 유지․관리, 제한적 본인확인제 시행에 따른 본인확인, 서비스 부정 이용 방지, 만 14세 미만 아동의 개인정보처리 시 법정대리인의 동의 여부 확인, 각종 고지․통지, 고충 처리 등을 목적으로 개인정보를 처리합니다. 2. 재화 또는 서비스 제공 물품 배송, 서비스 제공, 계약서 및 청구서 발송, 콘텐츠 제공, 맞춤서비스 제공, 본인인증, 연령인증, 요금 결제 및 정산, 채권추심 등을 목적으로 개인정보를 처리합니다. 3. 고충 처리 민원인의 신원 확인, 민원사항 확인, 사실조사를 위한 연락․통지, 처리 결과 통보 등의 목적으로 개인정보를 처리합니다. 제2조 (개인정보의 처리 및 보유기간) ① 회사는 법령에 따른 개인정보 보유, 이용 기간 또는 정보주체로부터 개인정보를 수집 시에 동의 받은 개인정보 보유, 이용 기간 내에서 개인정보를 처리, 보유합니다. ② 각각의 개인정보 처리 및 보유 기간은 다음과 같습니다. 1. 홈페이지 회원 가입 및 관리 : 사업자/단체 홈페이지 탈퇴 시까지 다만, 다음의 사유에 해당하는 경우에는 해당 사유 종료 시까지 1) 관계 법령 위반에 따른 수사, 조사 등이 진행 중인 경우에는 해당 수사, 조사 종료 시까지 2) 홈페이지 이용에 따른 채권 및 채무관계 잔존 시에는 해당 채권, 채무 관계 정산 시까지 제5조(이용자 및 법정대리인의 권리와 그 행사 방법) ① 정보주체는 회사에 대해 언제든지 다음 각 호의 개인정보 보호 관련 권리를 행사할 수 있습니다. 1. 개인정보 열람 요구 2. 오류 등이 있을 경우 정정 요구 3. 삭제요구 4. 처리정지 요구 ② 제1항에 따른 권리 행사는 회사에 대해 서면, 전화, 전자우편, 모사전송(FAX) 등을 통하여 하실 수 있으며 회사는 이에 대해 지체없이 조치하겠습니다. ③ 정보주체가 개인정보의 오류 등에 대한 정정 또는 삭제를 요구한 경우에는 회사는 정정 또는 삭제를 완료할 때까지 당해 개인정보를 이용하거나 제공하지 않습니다. ④ 제1항에 따른 권리 행사는 정보주체의 법정대리인이나 위임을 받은 자 등 대리인을 통하여 하실 수 있습니다. 이 경우 개인정보 보호법 시행규칙 별지 제11호 서식에 따른 위임장을 제출하셔야 합니다. ⑤ 정보주체는 개인정보 보호법 등 관계 법령을 위반하여 회사가 처리하고 있는 정보주체 본인이나 타인의 개인정보 및 사생활을 침해하여서는 아니 됩니다. 제6조(처리하는 개인정보 항목) 회사는 다음의 개인정보 항목을 처리하고 있습니다. 1. 홈페이지 회원 가입 및 관리 필수항목 : 성명, 전화번호, 이메일주소 < 예) 성명, 생년월일, 아이디, 비밀번호, 주소, 전화번호, 성별, 이메일주소, 아이핀번호> 선택항목 : < 예) 결혼 여부, 관심 분야> 2. 재화 또는 서비스 제공 필수항목 : 성명, 전화번호, 이메일주소 < 예) 성명, 생년월일, 아이디, 비밀번호, 주소, 전화번호, 이메일주소, 아이핀번호, 신용카드번호, 은행계좌정보 등 결제정보> 선택항목 : < 관심분야, 과거 구매내역> 3. 인터넷 서비스 이용과정에서 아래 개인정보 항목이 자동으로 생성되어 수집될 수 있습니다. IP주소, 쿠키, MAC주소, 서비스 이용기록, 방문기록, 불량 이용기록 등 제7조(개인정보의 파기) ① 회사는 개인정보 보유 기간의 경과, 처리목적 달성 등 개인정보가 불필요하게 되었을 때에는 지체없이 해당 개인정보를 파기합니다. ② 정보주체로부터 동의받은 개인정보 보유 기간이 경과하거나 처리목적이 달성되었음에도 불구하고 다른 법령에 따라 개인정보를 계속 보존하여야 하는 경우에는, 해당 개인정보를 별도의 데이터베이스(DB)로 옮기거나 보관장소를 달리하여 보존합니다. ③ 개인정보 파기의 절차 및 방법은 다음과 같습니다. 1. 파기 절차 회사는 파기 사유가 발생한 개인정보를 선정하고, 회사의 개인정보 보호책임자의 승인을 받아 개인정보를 파기합니다. 2. 파기 방법 회사는 전자적 파일 형태로 기록․저장된 개인정보는 기록을 재생할 수 없도록 로우레밸포멧(Low Level Format) 등의 방법을 이용하여 파기하며, 종이 문서에 기록․저장된 개인정보는 분쇄기로 분쇄하거나 소각하여 파기합니다. 제8조(개인정보의 안전성 확보조치) 회사는 개인정보의 안전성 확보를 위해 다음과 같은 조치를 하고 있습니다. 1. 관리적 조치 : 내부관리계획 수립 및 시행, 정기적 직원 교육 등 2. 기술적 조치 : 개인정보처리시스템 등의 접근 권한 관리, 접근통제시스템 설치, 고유 식별정보 등의 암호화, 보안프로그램 설치 3. 물리적 조치 : 전산실, 자료보관실 등의 접근통제 제9조(개인정보 자동 수집 장치의 설치∙운영 및 거부에 관한 사항) ① 회사는 이용자에게 개별적인 맞춤 서비스를 제공하기 위해 이용정보를 저장하고 수시로 불러오는 ‘쿠키(cookie)’를 사용합니다. ② 쿠키는 웹사이트를 운영하는데 이용되는 서버(http)가 이용자의 컴퓨터 브라우저에 보내는 소량의 정보이며 이용자들의 컴퓨터 내의 하드디스크에 저장되기도 합니다. 가. 쿠키의 사용 목적: 이용자가 방문한 각 서비스와 웹 사이트들에 대한 방문 및 이용형태, 인기 검색어, 보안접속 여부, 등을 파악하여 이용자에게 최적화된 정보 제공을 위해 사용됩니다. 나. 쿠키의 설치∙운영 및 거부 : 웹브라우저 상단의 도구>인터넷 옵션>개인정보 메뉴의 옵션 설정을 통해 쿠키 저장을 거부 할 수 있습니다. 다. 쿠키 저장을 거부할 경우 맞춤형 서비스 이용에 어려움이 발생할 수 있습니다. 제10조(개인정보 보호책임자) ① 회사는 개인정보 처리에 관한 업무를 총괄해서 책임지고, 개인정보 처리와 관련한 정보주체의 불만 처리 및 피해구제 등을 위하여 아래와 같이 개인정보 보호책임자를 지정하고 있습니다. ▶ 개인정보 보호책임자 성명 : 김나래 직책 : 대표 연락처 : < 전화번호>, < 이메일>, < 팩스번호> ※ 개인정보 보호 담당부서로 연결됩니다. ▶ 개인정보 보호 담당부서 부서명 : 마케팅팀 담당자 : 박소연 연락처 : 010-2040-1207 < 전화번호>, < 이메일>, < 팩스번호> ② 정보주체께서는 회사의 서비스(또는 사업)을 이용하시면서 발생한 모든 개인정보 보호 관련 문의, 불만 처리, 피해구제 등에 관한 사항을 개인정보 보호책임자 및 담당부서로 문의하실 수 있습니다. 회사는 정보주체의 문의에 대해 지체없이 답변 및 처리해드릴 것입니다. 제11조(개인정보 열람청구) 정보주체는 개인정보 보호법 제35조에 따른 개인정보의 열람 청구를 아래의 부서에 할 수 있습니다. 회사는 정보주체의 개인정보 열람 청구가 신속하게 처리되도록 노력하겠습니다. ▶ 개인정보 열람청구 접수․처리 부서 부서명 : 마케팅팀 담당자 : 박소연 연락처 : 010-2040-1207 < 전화번호>, < 이메일>, < 팩스번호> 제12조(권익침해 구제 방법) 정보주체는 아래의 기관에 대해 개인정보 침해에 대한 피해구제, 상담 등을 문의하실 수 있습니다. ▶ 개인정보 침해신고센터 (한국인터넷진흥원 운영) - 소관 업무 : 개인정보 침해사실 신고, 상담 신청 - 홈페이지 : privacy.kisa.or.kr - 전화 : (국번없이) 118 - 주소 : (58324) 전남 나주시 진흥길 9(빛가람동 301-2) 3층 개인정보침해신고센터 ▶ 개인정보 분쟁조정위원회 - 소관업무 : 개인정보 분쟁조정신청, 집단분쟁조정 (민사적 해결) - 홈페이지 : www.kopico.go.kr - 전화 : (국번없이) 1833-6972 - 주소 : (03171)서울특별시 종로구 세종대로 209 정부서울청사 4층 ▶ 대검찰청 사이버범죄수사단 : 02-3480-3573 (www.spo.go.kr) ▶ 경찰청 사이버안전국 : 182 (http://cyberbureau.police.go.kr) 제13조(개인정보 처리방침 시행 및 변경) 이 개인정보 처리방침은 2021. 09. 10.부터 적용됩니다. 개인정보 수집 및 이용에 동의합니다. 전송 작성해주신 폼을 바탕으로 디자인 제작 후 카카오톡으로 시안을 보내드립니다. 작성하시겠습니까? 취소 확인 확인",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "입력폼",
+        "data-widget-type": "form",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    }
+  ],
+  "text_blocks": [
+    "Alarm",
+    "마이페이지 로그아웃",
+    "ABOUT Brand Story Our Process the whot Brewery",
+    "Brand Story",
+    "Our Process",
+    "the whot Brewery",
+    "PRODUCT Year-Round Special & Seasonal Pairing",
+    "Year-Round",
+    "Special & Seasonal",
+    "Pairing",
+    "PARTNERSHIP Our Partners Design by Us Design Your Own",
+    "Our Partners",
+    "Design by Us",
+    "Design Your Own",
+    "NEWS Promotion People",
+    "Promotion",
+    "People",
+    "CONTACT",
+    "# 1. 맥주 선택",
+    "원하시는 맥주를 골라 오른쪽 폼에서 선택해주세요.",
+    "# 2. 디자인 선택",
+    "각 테마별 디자인 확인 후 원하는 디자인을 오른쪽 폼에서 선택해주세요.",
+    "thema1. season",
+    "봄1",
+    "봄2",
+    "여름1",
+    "여름2",
+    "가을1",
+    "가을2",
+    "겨울1",
+    "겨울2",
+    "thema2. Picture",
+    "골드블루",
+    "나비",
+    "드로잉",
+    "사람들",
+    "오로라",
+    "카니발1",
+    "카니발2",
+    "캠핑",
+    "핑크블루",
+    "힘내",
+    "thema3. anniversary",
+    "생일1",
+    "생일2",
+    "크리스마스1",
+    "크리스마스2",
+    "크리스마스3",
+    "할로윈1",
+    "할로윈2",
+    "thema4. retro",
+    "레트로1",
+    "레트로2",
+    "레트로3",
+    "레트로4",
+    "레트로5",
+    "레트로6",
+    "thema5. simple",
+    "블랙마블",
+    "다크블루",
+    "레인보우",
+    "메가트론",
+    "블루마블",
+    "솜사탕",
+    "써클",
+    "청록",
+    "퍼플",
+    "핑크골드",
+    "핑크그린",
+    "thema6. nature",
+    "골드리프",
+    "리스",
+    "바다",
+    "일출",
+    "트로피컬1",
+    "트로피컬2",
+    "플라워",
+    "홉",
+    "# 3. 커스터마이징 맥주 주문",
+    "작성해주신 폼을 바탕으로 디자인 제작 후 카카오톡으로 시안을 보내드립니다. 작성하시겠습니까?",
+    "(주)더홋브루어리농업회사법인 / 대표 김나래",
+    "고객센터 031.633.1045 / thewhot0@gmail.com",
+    "이용약관",
+    "개인정보처리방침"
+  ],
+  "links": [
+    {
+      "url": "https://www.thewhot.com/logout.cm",
+      "label": "로그아웃"
+    },
+    {
+      "url": "https://www.thewhot.com/about",
+      "label": "ABOUT"
+    },
+    {
+      "url": "https://www.thewhot.com/BrandStory",
+      "label": "Brand Story"
+    },
+    {
+      "url": "https://www.thewhot.com/OurProcess",
+      "label": "Our Process"
+    },
+    {
+      "url": "https://www.thewhot.com/thewhotBrewery",
+      "label": "the whot Brewery"
+    },
+    {
+      "url": "https://www.thewhot.com/product",
+      "label": "PRODUCT"
+    },
+    {
+      "url": "https://www.thewhot.com/Year-Round",
+      "label": "Year-Round"
+    },
+    {
+      "url": "https://www.thewhot.com/SpecialSeasonal",
+      "label": "Special & Seasonal"
+    },
+    {
+      "url": "https://www.thewhot.com/Pairing",
+      "label": "Pairing"
+    },
+    {
+      "url": "https://www.thewhot.com/partnership",
+      "label": "PARTNERSHIP"
+    },
+    {
+      "url": "https://www.thewhot.com/OurPartners",
+      "label": "Our Partners"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "Design by Us"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignYourOwn",
+      "label": "Design Your Own"
+    },
+    {
+      "url": "https://www.thewhot.com/NEWS",
+      "label": "NEWS"
+    },
+    {
+      "url": "https://www.thewhot.com/Promotion",
+      "label": "Promotion"
+    },
+    {
+      "url": "https://www.thewhot.com/People",
+      "label": "People"
+    },
+    {
+      "url": "https://www.thewhot.com/CONTACT",
+      "label": "CONTACT"
+    },
+    {
+      "url": "https://www.thewhot.com/",
+      "label": "더홋브루어리 -수제맥주 생산 전문기업"
+    },
+    {
+      "url": "https://www.thewhot.com/about",
+      "label": "ABOUT"
+    },
+    {
+      "url": "https://www.thewhot.com/BrandStory",
+      "label": "Brand Story"
+    },
+    {
+      "url": "https://www.thewhot.com/OurProcess",
+      "label": "Our Process"
+    },
+    {
+      "url": "https://www.thewhot.com/thewhotBrewery",
+      "label": "the whot Brewery"
+    },
+    {
+      "url": "https://www.thewhot.com/product",
+      "label": "PRODUCT"
+    },
+    {
+      "url": "https://www.thewhot.com/Year-Round",
+      "label": "Year-Round"
+    },
+    {
+      "url": "https://www.thewhot.com/SpecialSeasonal",
+      "label": "Special & Seasonal"
+    },
+    {
+      "url": "https://www.thewhot.com/Pairing",
+      "label": "Pairing"
+    },
+    {
+      "url": "https://www.thewhot.com/partnership",
+      "label": "PARTNERSHIP"
+    },
+    {
+      "url": "https://www.thewhot.com/OurPartners",
+      "label": "Our Partners"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "Design by Us"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignYourOwn",
+      "label": "Design Your Own"
+    },
+    {
+      "url": "https://www.thewhot.com/NEWS",
+      "label": "NEWS"
+    },
+    {
+      "url": "https://www.thewhot.com/Promotion",
+      "label": "Promotion"
+    },
+    {
+      "url": "https://www.thewhot.com/People",
+      "label": "People"
+    },
+    {
+      "url": "https://www.thewhot.com/CONTACT",
+      "label": "CONTACT"
+    },
+    {
+      "url": "https://map.naver.com/p/entry/place/1560726547?c=15.00%2C0%2C0%2C0%2Cdh&id=1560726547",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.instagram.com/thewhot_brewery/",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.facebook.com/p/%EB%8D%94%ED%99%8B-%EB%B8%8C%EB%A3%A8%EC%96%B4%EB%A6%AC_Farm-Craft-Beer-100043589598549/",
+      "label": "icon"
+    },
+    {
+      "url": "https://blog.naver.com/thewhotbrewery",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.thewhot.com/",
+      "label": "더홋브루어리 -수제맥주 생산 전문기업"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "site search"
+    },
+    {
+      "url": "https://www.thewhot.com/OurPartners",
+      "label": "Our Partners"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "Design by Us"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignYourOwn",
+      "label": "Design Your Own"
+    },
+    {
+      "url": "https://www.thewhot.com/?mode=policy",
+      "label": "이용약관"
+    },
+    {
+      "url": "https://www.thewhot.com/?mode=privacy",
+      "label": "개인정보처리방침"
+    }
+  ],
+  "forms": [
+    {
+      "attributes": {
+        "class": " icon_on",
+        "action": "/search",
+        "method": "get",
+        "id": "inline_s_form_w20200808aa3340fa6fb27"
+      },
+      "fields": [
+        {
+          "class": "search_btn_form",
+          "name": "keyword",
+          "style": "display: none",
+          "placeholder": "Search",
+          "value": "",
+          "title": "검색"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "addFormw20210825d46f711c8d049",
+        "method": "POST",
+        "target": "hidden_frame"
+      },
+      "fields": [
+        {
+          "type": "hidden",
+          "name": "board_code",
+          "value": "b20210825e5ca63926b9c9"
+        },
+        {
+          "type": "hidden",
+          "name": "unit_code",
+          "value": "u202008085f2d7b73d5565"
+        },
+        {
+          "type": "hidden",
+          "name": "widget_code",
+          "value": "w20210825d46f711c8d049"
+        },
+        {
+          "type": "hidden",
+          "name": "board_name",
+          "value": "CUSTOMAZING_ORDER"
+        },
+        {
+          "type": "hidden",
+          "name": "write_token",
+          "class": "_tk_obj"
+        },
+        {
+          "type": "hidden",
+          "name": "write_token_key",
+          "class": "_tk_key_obj"
+        },
+        {
+          "type": "text",
+          "class": "form-control",
+          "name": "input_ff25365bf25d0",
+          "placeholder": "",
+          "value": "",
+          "id": "input_txt_ff25365bf25d0"
+        },
+        {
+          "type": "tel",
+          "maxlength": "4",
+          "class": "_only_number  form-control inline-blocked _only_number_49ca9073a70e4",
+          "name": "phonenumber1_49ca9073a70e4",
+          "placeholder": "",
+          "value": "",
+          "id": "input_num_49ca9073a70e4"
+        },
+        {
+          "type": "tel",
+          "maxlength": "4",
+          "class": "_only_number  form-control inline-blocked _only_number_49ca9073a70e4",
+          "name": "phonenumber2_49ca9073a70e4",
+          "placeholder": "",
+          "value": "",
+          "id": "input_num_49ca9073a70e4"
+        },
+        {
+          "type": "tel",
+          "maxlength": "4",
+          "class": "_only_number  form-control inline-blocked _only_number_49ca9073a70e4 ",
+          "name": "phonenumber3_49ca9073a70e4",
+          "placeholder": "",
+          "value": "",
+          "id": "input_num_49ca9073a70e4"
+        },
+        {
+          "type": "text",
+          "class": "form-control",
+          "name": "email_848NM88J5G",
+          "placeholder": "",
+          "value": "",
+          "id": "input_email_848NM88J5G"
+        },
+        {
+          "class": "form-control",
+          "name": "select_ea83387905491",
+          "id": "input_select_ea83387905491"
+        },
+        {
+          "class": "form-control",
+          "name": "select_A63527q2a7",
+          "id": "input_select_A63527q2a7"
+        },
+        {
+          "class": "form-control",
+          "name": "select_lfU2e1AI82",
+          "id": "input_select_lfU2e1AI82"
+        },
+        {
+          "class": "form-control",
+          "name": "select_Pq2TNnx751",
+          "id": "input_select_Pq2TNnx751"
+        },
+        {
+          "type": "file",
+          "name": "form_file_576TgTZB45",
+          "class": "_file",
+          "style": "position: absolute; border:1px solid red; top:0;left:0; width: 100%; height:100%; opacity: 0;",
+          "id": "input_file_576TgTZB45"
+        },
+        {
+          "class": "_temp_file",
+          "name": "temp_files_576TgTZB45",
+          "value": "",
+          "type": "hidden"
+        },
+        {
+          "class": "_upload_file",
+          "name": "upload_files_576TgTZB45",
+          "value": "",
+          "type": "hidden"
+        },
+        {
+          "class": "form-control",
+          "rows": "3",
+          "name": "textarea_1Ib214Ms8Q",
+          "placeholder": "",
+          "id": "input_text_area_1Ib214Ms8Q"
+        },
+        {
+          "type": "checkbox"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    "about:blank",
+    "https://cdn.imweb.me/thumbnail/20210825/00a96dfbf8fe7.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/06d4ec2aeda4a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/09ad50d253956.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/0a2799c60aeb6.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/102184a244bc7.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1066054d60514.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/10ba749b16ce9.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1101414fb2400.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1390786f8143f.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/15c599a146ec8.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/18b2f2a4380af.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1a7dbf1af8105.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1f6770ffa9ccf.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/1fdb9ab6ae654.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/21a5535b9c6e9.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/25e83bf55ac21.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/26c69d2b81620.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/26e2f19573e56.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/281a544264649.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/29a9f883f734b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/29bc08bdbb281.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/2aa2f9938f250.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/2c7db4201d2aa.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/2fe568ca72480.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/338bd0161d0af.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/356ae35d45dff.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/398aa87552d08.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/3bc610ded35b6.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/3e1bfcabb69bb.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/3ec1a079df184.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/424875ea97384.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/4d5b569655e2a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/520a8b8c3e4f7.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/52f96d3d3222b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/550abf77c60a3.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/5592188ae050d.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/587f726c0346e.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/59e4d784f14f7.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/5cba473fe0e0b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/5fadce2b1f3c2.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/630baa340cfa7.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/6432be904bfac.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/64771c9d5890d.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/6741961a4a26c.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/6789f72c9995b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/68433d9fda1e1.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/729bbfcea90fe.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/73b4d143bcca8.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/748e5a958415c.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/74e176ee2f921.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/74e87893944ed.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/76f5e78da2698.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/798d72daa3ec6.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/7aaee0d515bfe.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/7b51b4f3f932d.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/7c05a39a4e8ff.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/7c58b2988adb1.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/82ade7c47678b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/85f2cf58a541b.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/86f02836289b4.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/8de542f950c31.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/8faf111ef7237.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/96ffeb06cf915.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/9b969fe8ab500.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/9d37212c6f295.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/9d5b8db47d427.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/9e6063e55652f.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/a19645ad1f20f.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/a71b76c92cc1d.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/a78823abf9953.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/ac59f10267fe9.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/b810656499980.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/ba36c6c4ee8a8.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/bc6926a6fe1b8.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/be1be9d883a24.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/be6cf8fb8b8e9.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/bed6af53614ec.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/bfd1100f88a8a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/cac2585523716.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/cb09476656a3a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/d2a8641d5dfce.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/d2fed24af20b1.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/d5e4b0abc6b91.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/de78bc954f200.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/df491c1cb0256.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/df8d98c9fdde1.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/e4e616a98fff6.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/e611d31d598b0.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/e708244d1e632.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/e783fd4f0224a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/e7d3f19681c5a.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/ebdbe072f9d0d.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/ecc8b9d4d77a9.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/ed68ef73e70d0.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/f001484c0bae3.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/f25044309cec4.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/f36c07e747a19.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/f53bd718d2459.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/f57d8d92f569c.jpg",
+    "https://cdn.imweb.me/thumbnail/20210825/fd697ac1f56c9.jpg",
+    "https://cdn.imweb.me/thumbnail/20220221/1161c29b5f00c.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/0b8bdc37a95bf.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/250c86768f12c.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/38ee606fecc12.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/3de249c75fb85.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/5ed3b9aff76c3.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/628b3a4ae76d9.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/6a44be0d8aba9.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/a672a2a26e592.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/dd5e7825f3eff.jpg",
+    "https://cdn.imweb.me/thumbnail/20231204/e7bb64e32041e.jpg",
+    "https://cdn.imweb.me/thumbnail/20250403/040bc403cb066.png",
+    "https://cdn.imweb.me/thumbnail/20250403/11b62f02d042f.png",
+    "https://cdn.imweb.me/thumbnail/20250403/e8ef34f638232.png",
+    "https://cdn.imweb.me/thumbnail/20250403/f31b4e2784f47.png",
+    "https://cdn.imweb.me/thumbnail/20250417/88031c27c990e.png",
+    "https://cdn.imweb.me/thumbnail/20250417/bca44b059d76a.png",
+    "https://cdn.imweb.me/upload/S20200808c96e22053f759/41a826ee62438.png",
+    "https://cdn.imweb.me/upload/S20200808c96e22053f759/d354c07685ee6.png",
+    "https://crm-onsite.imweb.me/sdk.min.js?t=1793332440",
+    "https://imweb.me/_/wkernel/webinit-slim/boot.mjs",
+    "https://static-cdn.crm.imweb.me/sdk/main.min.js",
+    "https://static.imweb.me/analytics-sdk/a7s.umd.js",
+    "https://static.imweb.me/design-system/magnet/magnet-shell.js",
+    "https://static.imweb.me/design-system/magnet/magnet.js",
+    "https://static.imweb.me/vendor/js/deploy_strategy.js",
+    "https://vendor-cdn.imweb.me/css/animate.css",
+    "https://vendor-cdn.imweb.me/css/animate.css?1577682282",
+    "https://vendor-cdn.imweb.me/css/chosen.css",
+    "https://vendor-cdn.imweb.me/css/chosen.css?1617331870",
+    "https://vendor-cdn.imweb.me/css/chosenImage.css",
+    "https://vendor-cdn.imweb.me/css/chosenImage.css?1617331762",
+    "https://vendor-cdn.imweb.me/css/emoji.css",
+    "https://vendor-cdn.imweb.me/css/emoji.css?1669163161",
+    "https://vendor-cdn.imweb.me/css/font-awesome5.min.css",
+    "https://vendor-cdn.imweb.me/css/font-awesome5.min.css?1669163183",
+    "https://vendor-cdn.imweb.me/css/function.css",
+    "https://vendor-cdn.imweb.me/css/function.css?1666824024",
+    "https://vendor-cdn.imweb.me/css/ii.css",
+    "https://vendor-cdn.imweb.me/css/ii.css?1738631657",
+    "https://vendor-cdn.imweb.me/css/im_component.css",
+    "https://vendor-cdn.imweb.me/css/im_component.css?1698001225",
+    "https://vendor-cdn.imweb.me/css/nanumbarungothic.css",
+    "https://vendor-cdn.imweb.me/css/nanumbarungothic.css?v1",
+    "https://vendor-cdn.imweb.me/css/owl.carousel1.css?1577682282",
+    "https://vendor-cdn.imweb.me/css/roboto.css",
+    "https://vendor-cdn.imweb.me/css/site/alarm_menu.css",
+    "https://vendor-cdn.imweb.me/css/site/alarm_menu.css?1678083003",
+    "https://vendor-cdn.imweb.me/css/site/bootstrap.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/iefix.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/iefix2.css",
+    "https://vendor-cdn.imweb.me/css/site/iefix2.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/site.css",
+    "https://vendor-cdn.imweb.me/css/site/site.css?1779923336",
+    "https://vendor-cdn.imweb.me/css/site/site2.css",
+    "https://vendor-cdn.imweb.me/css/site/site2.css?1789727692",
+    "https://vendor-cdn.imweb.me/css/tailwind.css",
+    "https://vendor-cdn.imweb.me/css/tailwind.css?1780980950",
+    "https://vendor-cdn.imweb.me/fonts/froala-emoji-tap/style.css",
+    "https://vendor-cdn.imweb.me/fonts/froala-emoji-tap/style.css?1669163161",
+    "https://vendor-cdn.imweb.me/fonts/im-icon/style.css",
+    "https://vendor-cdn.imweb.me/fonts/im-icon/style.css?1706507651",
+    "https://vendor-cdn.imweb.me/fonts/phosphor/style.css",
+    "https://vendor-cdn.imweb.me/fonts/phosphor/style.css?1744870776",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/static/pretendard-dynamic-subset.css",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/variable/pretendardvariable-dynamic-subset.css",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/variable/pretendardvariable-dynamic-subset.css?1669875619",
+    "https://vendor-cdn.imweb.me/images/site/image-placeholder.svg",
+    "https://vendor-cdn.imweb.me/js/PIE_IE678.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/ThreeCanvas.js?1700717292",
+    "https://vendor-cdn.imweb.me/js/autosize.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/axios.min.js?1689048978",
+    "https://vendor-cdn.imweb.me/js/bootstrap-datepicker.js?1687222780",
+    "https://vendor-cdn.imweb.me/js/bootstrap-hover-dropdown.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/bootstrap.min.js?1630317768",
+    "https://vendor-cdn.imweb.me/js/bootstrap.slide-menu-alarm.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/bootstrap.slide-menu.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/classie.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/common.js?1785734435",
+    "https://vendor-cdn.imweb.me/js/gambit-smoothscroll-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/html5shiv.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/ie-checker-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/im_component.js?1779923336",
+    "https://vendor-cdn.imweb.me/js/imagesloaded.pkgd.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery-scrolltofixed.js?1669067096",
+    "https://vendor-cdn.imweb.me/js/jquery-ui.design.js?1627517437",
+    "https://vendor-cdn.imweb.me/js/jquery.canvasResize.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.chosen.js?1619084781",
+    "https://vendor-cdn.imweb.me/js/jquery.exif.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.fileupload.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.js?1627517460",
+    "https://vendor-cdn.imweb.me/js/jquery.lazyload.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.number.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.smooth-scroll.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.timepicker.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.trackpad-scroll-emulator.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/lightgallery-all.min.js?1596595980",
+    "https://vendor-cdn.imweb.me/js/lightgallery-vimeo-compat.js?1785999963",
+    "https://vendor-cdn.imweb.me/js/lodash.min.js?1771820111",
+    "https://vendor-cdn.imweb.me/js/masonry.pkgd.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/modernizr.custom.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/moment-with-locales.js?1781507908",
+    "https://vendor-cdn.imweb.me/js/moment.min.js?1780549659",
+    "https://vendor-cdn.imweb.me/js/nprogress.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/owl.carousel1.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/owl.carousel2.js?1638150602",
+    "https://vendor-cdn.imweb.me/js/placeholders.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/preloader.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/respond.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/site_common.js?1672019750",
+    "https://vendor-cdn.imweb.me/js/slick.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/snow.js?1700717292",
+    "https://vendor-cdn.imweb.me/js/tinycolor-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_blue_10.css",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_blue_10.css?1653367465",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_red_10.css",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_red_10.css?1653367465",
+    "https://www.thewhot.com/_/oms-customer-front-office/style.css",
+    "https://www.thewhot.com/common/img/default_profile.png",
+    "https://www.thewhot.com/css/custom.cm"
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "source": "https://www.thewhot.com/",
+    "target": "/index.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/BrandStory",
+    "target": "/brand/BrandStory.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/OurProcess",
+    "target": "/brand/OurProcess.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/thewhotBrewery",
+    "target": "/brand/thewhotBrewery.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/Year-Round",
+    "target": "/brand/Year-Round.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/SpecialSeasonal",
+    "target": "/brand/SpecialSeasonal.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/Pairing",
+    "target": "/brand/Pairing.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/OurPartners",
+    "target": "/brand/OurPartners.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/DesignbyUs",
+    "target": "/brand/DesignbyUs.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/DesignYourOwn",
+    "target": "/brand/DesignYourOwn.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/Promotion",
+    "target": "/brand/Promotion.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/People",
+    "target": "/brand/People.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/CONTACT",
+    "target": "/brand/CONTACT.html",
+    "action": "domain switch + redirect configuration required"
+  },
+  {
+    "source": "https://www.thewhot.com/about",
+    "target": "/brand/BrandStory.html",
+    "action": "redirect alias"
+  },
+  {
+    "source": "https://www.thewhot.com/product",
+    "target": "/brand/Year-Round.html",
+    "action": "redirect alias"
+  },
+  {
+    "source": "https://www.thewhot.com/partnership",
+    "target": "/brand/OurPartners.html",
+    "action": "redirect alias"
+  },
+  {
+    "source": "https://www.thewhot.com/NEWS",
+    "target": "/brand/Promotion.html",
+    "action": "redirect alias"
+  },
+  {
+    "source": "https://www.thewhot.com/main",
+    "target": "/index.html",
+    "action": "redirect alias"
+  }
+]

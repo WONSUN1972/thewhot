@@ -1,0 +1,80 @@
+[
+  {
+    "page": "home",
+    "widget_count": 11,
+    "source_url": "https://www.thewhot.com/",
+    "target": "index.html"
+  },
+  {
+    "page": "BrandStory",
+    "widget_count": 3,
+    "source_url": "https://www.thewhot.com/BrandStory",
+    "target": "brand/BrandStory.html"
+  },
+  {
+    "page": "OurProcess",
+    "widget_count": 3,
+    "source_url": "https://www.thewhot.com/OurProcess",
+    "target": "brand/OurProcess.html"
+  },
+  {
+    "page": "thewhotBrewery",
+    "widget_count": 4,
+    "source_url": "https://www.thewhot.com/thewhotBrewery",
+    "target": "brand/thewhotBrewery.html"
+  },
+  {
+    "page": "Year-Round",
+    "widget_count": 5,
+    "source_url": "https://www.thewhot.com/Year-Round",
+    "target": "brand/Year-Round.html"
+  },
+  {
+    "page": "SpecialSeasonal",
+    "widget_count": 5,
+    "source_url": "https://www.thewhot.com/SpecialSeasonal",
+    "target": "brand/SpecialSeasonal.html"
+  },
+  {
+    "page": "Pairing",
+    "widget_count": 5,
+    "source_url": "https://www.thewhot.com/Pairing",
+    "target": "brand/Pairing.html"
+  },
+  {
+    "page": "OurPartners",
+    "widget_count": 2,
+    "source_url": "https://www.thewhot.com/OurPartners",
+    "target": "brand/OurPartners.html"
+  },
+  {
+    "page": "DesignbyUs",
+    "widget_count": 25,
+    "source_url": "https://www.thewhot.com/DesignbyUs",
+    "target": "brand/DesignbyUs.html"
+  },
+  {
+    "page": "DesignYourOwn",
+    "widget_count": 7,
+    "source_url": "https://www.thewhot.com/DesignYourOwn",
+    "target": "brand/DesignYourOwn.html"
+  },
+  {
+    "page": "Promotion",
+    "widget_count": 1,
+    "source_url": "https://www.thewhot.com/Promotion",
+    "target": "brand/Promotion.html"
+  },
+  {
+    "page": "People",
+    "widget_count": 1,
+    "source_url": "https://www.thewhot.com/People",
+    "target": "brand/People.html"
+  },
+  {
+    "page": "CONTACT",
+    "widget_count": 7,
+    "source_url": "https://www.thewhot.com/CONTACT",
+    "target": "brand/CONTACT.html"
+  }
+]

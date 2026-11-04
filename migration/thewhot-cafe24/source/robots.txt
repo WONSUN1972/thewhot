@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /site_join
+Disallow: /site_join_agree
+Disallow: /shop_cart
+Disallow: /?mode*
+
+Sitemap: https://www.thewhot.com/sitemap.xml

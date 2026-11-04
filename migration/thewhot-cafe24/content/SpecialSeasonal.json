@@ -1,0 +1,516 @@
+{
+  "key": "SpecialSeasonal",
+  "url": "https://www.thewhot.com/SpecialSeasonal",
+  "final_url": "https://www.thewhot.com/SpecialSeasonal",
+  "title": "더홋브루어리 -수제맥주 생산 전문기업",
+  "bytes": 401468,
+  "source": "source/SpecialSeasonal.html",
+  "widgets": [
+    {
+      "type": "inline_logo",
+      "name": "",
+      "text": "더홋브루어리 -수제맥주 생산 전문기업",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_logo"
+      }
+    },
+    {
+      "type": "inline_menu",
+      "name": "",
+      "text": "ABOUT Brand Story Our Process the whot Brewery PRODUCT Year-Round Special & Seasonal Pairing PARTNERSHIP Our Partners Design by Us Design Your Own NEWS Promotion People CONTACT",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_menu"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_icon",
+      "name": "",
+      "text": "icon",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_icon"
+      }
+    },
+    {
+      "type": "inline_menu_btn",
+      "name": "",
+      "text": "MENU",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_menu_btn"
+      }
+    },
+    {
+      "type": "inline_logo",
+      "name": "",
+      "text": "더홋브루어리 -수제맥주 생산 전문기업",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_logo"
+      }
+    },
+    {
+      "type": "inline_login_btn",
+      "name": "",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_login_btn"
+      }
+    },
+    {
+      "type": "inline_search_btn",
+      "name": "",
+      "text": "site search",
+      "attributes": {
+        "class": "_widget_data",
+        "data-widget-type": "inline_search_btn"
+      }
+    },
+    {
+      "type": "image",
+      "name": "이미지",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "이미지",
+        "data-widget-type": "image",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "image",
+      "name": "이미지",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "이미지",
+        "data-widget-type": "image",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "gallery2",
+      "name": "갤러리",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "갤러리",
+        "data-widget-type": "gallery2",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "padding",
+      "name": "여백",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data _ds_animated_except",
+        "data-widget-name": "여백",
+        "data-widget-type": "padding",
+        "data-widget-parent-is-mobile": "N"
+      }
+    },
+    {
+      "type": "hr",
+      "name": "가로선",
+      "text": "",
+      "attributes": {
+        "class": "_widget_data ",
+        "data-widget-name": "가로선",
+        "data-widget-type": "hr",
+        "data-widget-anim": "none",
+        "data-widget-anim-duration": "0.7",
+        "data-widget-anim-delay": "0",
+        "data-widget-parent-is-mobile": "N"
+      }
+    }
+  ],
+  "text_blocks": [
+    "Alarm",
+    "마이페이지 로그아웃",
+    "ABOUT Brand Story Our Process the whot Brewery",
+    "Brand Story",
+    "Our Process",
+    "the whot Brewery",
+    "PRODUCT Year-Round Special & Seasonal Pairing",
+    "Year-Round",
+    "Special & Seasonal",
+    "Pairing",
+    "PARTNERSHIP Our Partners Design by Us Design Your Own",
+    "Our Partners",
+    "Design by Us",
+    "Design Your Own",
+    "NEWS Promotion People",
+    "Promotion",
+    "People",
+    "CONTACT",
+    "(주)더홋브루어리농업회사법인 / 대표 김나래",
+    "고객센터 031.633.1045 / thewhot0@gmail.com",
+    "이용약관",
+    "개인정보처리방침"
+  ],
+  "links": [
+    {
+      "url": "https://www.thewhot.com/logout.cm",
+      "label": "로그아웃"
+    },
+    {
+      "url": "https://www.thewhot.com/about",
+      "label": "ABOUT"
+    },
+    {
+      "url": "https://www.thewhot.com/BrandStory",
+      "label": "Brand Story"
+    },
+    {
+      "url": "https://www.thewhot.com/OurProcess",
+      "label": "Our Process"
+    },
+    {
+      "url": "https://www.thewhot.com/thewhotBrewery",
+      "label": "the whot Brewery"
+    },
+    {
+      "url": "https://www.thewhot.com/product",
+      "label": "PRODUCT"
+    },
+    {
+      "url": "https://www.thewhot.com/Year-Round",
+      "label": "Year-Round"
+    },
+    {
+      "url": "https://www.thewhot.com/SpecialSeasonal",
+      "label": "Special & Seasonal"
+    },
+    {
+      "url": "https://www.thewhot.com/Pairing",
+      "label": "Pairing"
+    },
+    {
+      "url": "https://www.thewhot.com/partnership",
+      "label": "PARTNERSHIP"
+    },
+    {
+      "url": "https://www.thewhot.com/OurPartners",
+      "label": "Our Partners"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "Design by Us"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignYourOwn",
+      "label": "Design Your Own"
+    },
+    {
+      "url": "https://www.thewhot.com/NEWS",
+      "label": "NEWS"
+    },
+    {
+      "url": "https://www.thewhot.com/Promotion",
+      "label": "Promotion"
+    },
+    {
+      "url": "https://www.thewhot.com/People",
+      "label": "People"
+    },
+    {
+      "url": "https://www.thewhot.com/CONTACT",
+      "label": "CONTACT"
+    },
+    {
+      "url": "https://www.thewhot.com/",
+      "label": "더홋브루어리 -수제맥주 생산 전문기업"
+    },
+    {
+      "url": "https://www.thewhot.com/about",
+      "label": "ABOUT"
+    },
+    {
+      "url": "https://www.thewhot.com/BrandStory",
+      "label": "Brand Story"
+    },
+    {
+      "url": "https://www.thewhot.com/OurProcess",
+      "label": "Our Process"
+    },
+    {
+      "url": "https://www.thewhot.com/thewhotBrewery",
+      "label": "the whot Brewery"
+    },
+    {
+      "url": "https://www.thewhot.com/product",
+      "label": "PRODUCT"
+    },
+    {
+      "url": "https://www.thewhot.com/Year-Round",
+      "label": "Year-Round"
+    },
+    {
+      "url": "https://www.thewhot.com/SpecialSeasonal",
+      "label": "Special & Seasonal"
+    },
+    {
+      "url": "https://www.thewhot.com/Pairing",
+      "label": "Pairing"
+    },
+    {
+      "url": "https://www.thewhot.com/partnership",
+      "label": "PARTNERSHIP"
+    },
+    {
+      "url": "https://www.thewhot.com/OurPartners",
+      "label": "Our Partners"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignbyUs",
+      "label": "Design by Us"
+    },
+    {
+      "url": "https://www.thewhot.com/DesignYourOwn",
+      "label": "Design Your Own"
+    },
+    {
+      "url": "https://www.thewhot.com/NEWS",
+      "label": "NEWS"
+    },
+    {
+      "url": "https://www.thewhot.com/Promotion",
+      "label": "Promotion"
+    },
+    {
+      "url": "https://www.thewhot.com/People",
+      "label": "People"
+    },
+    {
+      "url": "https://www.thewhot.com/CONTACT",
+      "label": "CONTACT"
+    },
+    {
+      "url": "https://map.naver.com/p/entry/place/1560726547?c=15.00%2C0%2C0%2C0%2Cdh&id=1560726547",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.instagram.com/thewhot_brewery/",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.facebook.com/p/%EB%8D%94%ED%99%8B-%EB%B8%8C%EB%A3%A8%EC%96%B4%EB%A6%AC_Farm-Craft-Beer-100043589598549/",
+      "label": "icon"
+    },
+    {
+      "url": "https://blog.naver.com/thewhotbrewery",
+      "label": "icon"
+    },
+    {
+      "url": "https://www.thewhot.com/",
+      "label": "더홋브루어리 -수제맥주 생산 전문기업"
+    },
+    {
+      "url": "https://www.thewhot.com/SpecialSeasonal",
+      "label": "site search"
+    },
+    {
+      "url": "https://www.thewhot.com/?mode=policy",
+      "label": "이용약관"
+    },
+    {
+      "url": "https://www.thewhot.com/?mode=privacy",
+      "label": "개인정보처리방침"
+    }
+  ],
+  "forms": [
+    {
+      "attributes": {
+        "class": " icon_on",
+        "action": "/search",
+        "method": "get",
+        "id": "inline_s_form_w20200808aa3340fa6fb27"
+      },
+      "fields": [
+        {
+          "class": "search_btn_form",
+          "name": "keyword",
+          "style": "display: none",
+          "placeholder": "Search",
+          "value": "",
+          "title": "검색"
+        }
+      ]
+    }
+  ],
+  "assets": [
+    "about:blank",
+    "https://cdn.imweb.me/thumbnail/20250330/059955e5afa9b.png",
+    "https://cdn.imweb.me/thumbnail/20250330/0b0ba7b38b90e.png",
+    "https://cdn.imweb.me/thumbnail/20250330/3e128505c423d.png",
+    "https://cdn.imweb.me/thumbnail/20250330/470bc66a77c11.png",
+    "https://cdn.imweb.me/thumbnail/20250330/5b46ddd8a47f4.png",
+    "https://cdn.imweb.me/thumbnail/20250330/6004fd1f9134c.png",
+    "https://cdn.imweb.me/thumbnail/20250330/661cac053ae14.png",
+    "https://cdn.imweb.me/thumbnail/20250330/69468c7a8ed8d.png",
+    "https://cdn.imweb.me/thumbnail/20250330/70737bb02b5e5.png",
+    "https://cdn.imweb.me/thumbnail/20250330/72d2dd6827ada.png",
+    "https://cdn.imweb.me/thumbnail/20250330/73700753432c9.png",
+    "https://cdn.imweb.me/thumbnail/20250330/8122965adbfe4.png",
+    "https://cdn.imweb.me/thumbnail/20250330/82459aad3ff13.png",
+    "https://cdn.imweb.me/thumbnail/20250330/8572cb247121b.png",
+    "https://cdn.imweb.me/thumbnail/20250330/972573cea74d4.png",
+    "https://cdn.imweb.me/thumbnail/20250330/9ace013156367.png",
+    "https://cdn.imweb.me/thumbnail/20250330/9cc2714abaeb5.png",
+    "https://cdn.imweb.me/thumbnail/20250330/d336b16aea501.png",
+    "https://cdn.imweb.me/thumbnail/20250330/d5fa744db9c12.png",
+    "https://cdn.imweb.me/thumbnail/20250330/da519f49cdb84.png",
+    "https://cdn.imweb.me/thumbnail/20250330/e024028524383.png",
+    "https://cdn.imweb.me/thumbnail/20250330/e9c2a3bbe4950.png",
+    "https://cdn.imweb.me/thumbnail/20250330/f94d9df494d03.png",
+    "https://cdn.imweb.me/thumbnail/20250403/040bc403cb066.png",
+    "https://cdn.imweb.me/thumbnail/20250403/11b62f02d042f.png",
+    "https://cdn.imweb.me/thumbnail/20250403/e8ef34f638232.png",
+    "https://cdn.imweb.me/thumbnail/20250403/f31b4e2784f47.png",
+    "https://cdn.imweb.me/thumbnail/20250417/88031c27c990e.png",
+    "https://cdn.imweb.me/thumbnail/20250417/bca44b059d76a.png",
+    "https://cdn.imweb.me/upload/S20200808c96e22053f759/41a826ee62438.png",
+    "https://cdn.imweb.me/upload/S20200808c96e22053f759/d354c07685ee6.png",
+    "https://crm-onsite.imweb.me/sdk.min.js?t=1793332440",
+    "https://imweb.me/_/wkernel/webinit-slim/boot.mjs",
+    "https://static-cdn.crm.imweb.me/sdk/main.min.js",
+    "https://static.imweb.me/analytics-sdk/a7s.umd.js",
+    "https://static.imweb.me/design-system/magnet/magnet-shell.js",
+    "https://static.imweb.me/design-system/magnet/magnet.js",
+    "https://static.imweb.me/vendor/js/deploy_strategy.js",
+    "https://vendor-cdn.imweb.me/css/animate.css",
+    "https://vendor-cdn.imweb.me/css/animate.css?1577682282",
+    "https://vendor-cdn.imweb.me/css/chosen.css",
+    "https://vendor-cdn.imweb.me/css/chosen.css?1617331870",
+    "https://vendor-cdn.imweb.me/css/chosenImage.css",
+    "https://vendor-cdn.imweb.me/css/chosenImage.css?1617331762",
+    "https://vendor-cdn.imweb.me/css/emoji.css",
+    "https://vendor-cdn.imweb.me/css/emoji.css?1669163161",
+    "https://vendor-cdn.imweb.me/css/font-awesome5.min.css",
+    "https://vendor-cdn.imweb.me/css/font-awesome5.min.css?1669163183",
+    "https://vendor-cdn.imweb.me/css/function.css",
+    "https://vendor-cdn.imweb.me/css/function.css?1666824024",
+    "https://vendor-cdn.imweb.me/css/ii.css",
+    "https://vendor-cdn.imweb.me/css/ii.css?1738631657",
+    "https://vendor-cdn.imweb.me/css/im_component.css",
+    "https://vendor-cdn.imweb.me/css/im_component.css?1698001225",
+    "https://vendor-cdn.imweb.me/css/nanumbarungothic.css",
+    "https://vendor-cdn.imweb.me/css/nanumbarungothic.css?v1",
+    "https://vendor-cdn.imweb.me/css/owl.carousel1.css?1577682282",
+    "https://vendor-cdn.imweb.me/css/roboto.css",
+    "https://vendor-cdn.imweb.me/css/site/alarm_menu.css",
+    "https://vendor-cdn.imweb.me/css/site/alarm_menu.css?1678083003",
+    "https://vendor-cdn.imweb.me/css/site/bootstrap.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/iefix.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/iefix2.css",
+    "https://vendor-cdn.imweb.me/css/site/iefix2.css?1590627710",
+    "https://vendor-cdn.imweb.me/css/site/site.css",
+    "https://vendor-cdn.imweb.me/css/site/site.css?1779923336",
+    "https://vendor-cdn.imweb.me/css/site/site2.css",
+    "https://vendor-cdn.imweb.me/css/site/site2.css?1789727692",
+    "https://vendor-cdn.imweb.me/css/tailwind.css",
+    "https://vendor-cdn.imweb.me/css/tailwind.css?1780980950",
+    "https://vendor-cdn.imweb.me/fonts/froala-emoji-tap/style.css",
+    "https://vendor-cdn.imweb.me/fonts/froala-emoji-tap/style.css?1669163161",
+    "https://vendor-cdn.imweb.me/fonts/im-icon/style.css",
+    "https://vendor-cdn.imweb.me/fonts/im-icon/style.css?1706507651",
+    "https://vendor-cdn.imweb.me/fonts/phosphor/style.css",
+    "https://vendor-cdn.imweb.me/fonts/phosphor/style.css?1744870776",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/static/pretendard-dynamic-subset.css",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/variable/pretendardvariable-dynamic-subset.css",
+    "https://vendor-cdn.imweb.me/fonts/pretendard/web/variable/pretendardvariable-dynamic-subset.css?1669875619",
+    "https://vendor-cdn.imweb.me/images/site/image-placeholder.svg",
+    "https://vendor-cdn.imweb.me/js/PIE_IE678.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/ThreeCanvas.js?1700717292",
+    "https://vendor-cdn.imweb.me/js/autosize.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/axios.min.js?1689048978",
+    "https://vendor-cdn.imweb.me/js/bootstrap-datepicker.js?1687222780",
+    "https://vendor-cdn.imweb.me/js/bootstrap-hover-dropdown.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/bootstrap.min.js?1630317768",
+    "https://vendor-cdn.imweb.me/js/bootstrap.slide-menu-alarm.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/bootstrap.slide-menu.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/classie.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/common.js?1785734435",
+    "https://vendor-cdn.imweb.me/js/gambit-smoothscroll-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/html5shiv.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/ie-checker-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/im_component.js?1779923336",
+    "https://vendor-cdn.imweb.me/js/imagesloaded.pkgd.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery-scrolltofixed.js?1669067096",
+    "https://vendor-cdn.imweb.me/js/jquery-ui.design.js?1627517437",
+    "https://vendor-cdn.imweb.me/js/jquery.canvasResize.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.chosen.js?1619084781",
+    "https://vendor-cdn.imweb.me/js/jquery.exif.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.fileupload.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.js?1627517460",
+    "https://vendor-cdn.imweb.me/js/jquery.lazyload.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.number.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.smooth-scroll.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.timepicker.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/jquery.trackpad-scroll-emulator.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/lightgallery-all.min.js?1596595980",
+    "https://vendor-cdn.imweb.me/js/lightgallery-vimeo-compat.js?1785999963",
+    "https://vendor-cdn.imweb.me/js/lodash.min.js?1771820111",
+    "https://vendor-cdn.imweb.me/js/masonry.pkgd.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/modernizr.custom.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/moment-with-locales.js?1781507908",
+    "https://vendor-cdn.imweb.me/js/moment.min.js?1780549659",
+    "https://vendor-cdn.imweb.me/js/nprogress.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/owl.carousel1.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/owl.carousel2.js?1638150602",
+    "https://vendor-cdn.imweb.me/js/placeholders.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/preloader.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/respond.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/site_common.js?1672019750",
+    "https://vendor-cdn.imweb.me/js/slick.min.js?1577682292",
+    "https://vendor-cdn.imweb.me/js/snow.js?1700717292",
+    "https://vendor-cdn.imweb.me/js/tinycolor-min.js?1577682292",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_blue_10.css",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_blue_10.css?1653367465",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_red_10.css",
+    "https://vendor-cdn.imweb.me/minify_css/vendor_red_10.css?1653367465",
+    "https://www.thewhot.com/_/oms-customer-front-office/style.css",
+    "https://www.thewhot.com/common/img/default_profile.png",
+    "https://www.thewhot.com/css/custom.cm"
+  ]
+}

@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+/migration/*.zip
+/migration/thewhot-cafe24/review/
+/output/
