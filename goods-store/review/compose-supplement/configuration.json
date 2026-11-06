@@ -1,0 +1,51 @@
+{
+  "composeVersion": "5.5.1",
+  "baseDefinition": "compose.yaml",
+  "baseSha256": "e2bdf9293011f0187d5c5959482a2034fafa033764120449d40e5830bb8a2bef",
+  "project": "thewhot-compose-review",
+  "services": {
+    "db": {
+      "image": "postgres:17-alpine",
+      "healthcheck": true,
+      "ports": [],
+      "restart": "unless-stopped"
+    },
+    "medusa": {
+      "image": "thewhot-medusa:review",
+      "healthcheck": true,
+      "ports": [
+        {
+          "host": "127.0.0.1",
+          "published": "9002",
+          "target": 9000
+        }
+      ],
+      "restart": "unless-stopped"
+    },
+    "redis": {
+      "image": "redis:7-alpine",
+      "healthcheck": true,
+      "ports": [],
+      "restart": "unless-stopped"
+    },
+    "storefront": {
+      "image": "thewhot-store:review",
+      "healthcheck": true,
+      "ports": [
+        {
+          "host": "127.0.0.1",
+          "published": "8792",
+          "target": 8790
+        }
+      ],
+      "restart": "unless-stopped"
+    }
+  },
+  "overrides": [
+    "unique private credentials",
+    "isolated project/network/volumes",
+    "loopback host ports 8792 and 9002",
+    "previously built candidate image tags"
+  ],
+  "systemInstalled": false
+}

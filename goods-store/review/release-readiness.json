@@ -1,5 +1,5 @@
 {
-  "status": "READY_FOR_SERVER_DEMO_DEPLOYMENT",
+  "status": "LOCAL_DEMO_VERIFIED_SERVER_PREFLIGHT_REQUIRED",
   "scope": "Non-alcohol sample goods and retained brand site; no actual selling, payment or shipping",
   "verified": [
     "Medusa 2.22.4 is actual product/customer/inventory/order backend",
@@ -13,12 +13,12 @@
     "Backup restoration: seven core tables exact row checksums",
     "Three rounds: 11 unit and 26 integration checks each; 69 layout checks each",
     "Native Medusa Admin login and persisted demo orders visible",
-    "Images and archived brand main retained"
+    "Images and archived brand main retained",
+    "Compose 5.5.1 standalone: committed configuration with isolated override; fresh DB initialization, all four services healthy, customer demo order and admin read passed"
   ],
   "unresolvedCodeBlockers": [],
   "notVerified": [
     "Actual target server OS/resources/firewall/DNS/TLS/reverse proxy",
-    "Docker Compose invocation on this Mac (plugin absent; equivalent Docker CLI images/network tested)",
     "Live Imweb latest-copy equality; archived version used"
   ],
   "pendingExternal": [
@@ -52,5 +52,7 @@
       "status": "passed"
     }
   ],
-  "actualServerDeployed": false
+  "actualServerDeployed": false,
+  "verdict": "외부연동 제외 시연용 로컬 검증 완료, 서버 현장 사전점검 필요",
+  "composeSupplement": "compose-supplement/summary.json"
 }

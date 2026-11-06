@@ -24,7 +24,7 @@ Node 22.22 이상, PostgreSQL 17, Redis 7이 필요합니다. 두 앱에서 `npm
 로컬 기존 데이터베이스는 `thewhot-goods-local-db`, Medusa DB는 `goods_medusa`, Redis는 `thewhot-goods-local-redis`. 독립 검증 DB `goods_medusa_review`와 포트 8791/9001은 QA 전용입니다. 운영에 QA DB/계정을 복사하지 마세요. 관리자 초기 설정 비밀값은 사용 후 환경에서 제거하고 안전한 암호 관리자에 보관합니다. 환경파일은 Git 제외입니다.
 
 ## 배포 준비 절차 (실제 서버 배포 미실행)
-저장소 루트 `compose.yaml`과 양쪽 `Dockerfile`을 제공합니다. 각 이미지에는 환경파일을 포함하지 않습니다. Docker Compose v2가 서버에 필요합니다. 이 Mac에는 Compose 플러그인이 없어 Docker CLI로 동일 이미지와 네트워크를 검증합니다.
+저장소 루트 `compose.yaml`과 양쪽 `Dockerfile`을 제공합니다. 각 이미지에는 환경파일을 포함하지 않습니다. Docker Compose v2가 서버에 필요합니다. 이 Mac의 기존 standalone docker-compose 5.5.1로 실제 Compose 기동을 추가 검증했습니다. 별도 환경파일·포트·이미지 태그 override와 새 DB/볼륨을 사용했고, 네 서비스 상태와 상품·시연 주문·관리자 조회가 통과했습니다. 서버에서는 docker compose 또는 호환 standalone 실행 파일이 필요합니다. 기존 전체 검수 3회와 별도인 보완 결과는 review/compose-supplement/summary.json에 있습니다.
 
 1. 비밀값을 별도 주입하고 `DB_PASSWORD`를 서버 전용 무작위 값으로 설정합니다. URL에 쓰는 DB 암호는 URL 안전 문자로 생성하거나 인코딩합니다.
 2. `docker compose up -d db redis` → `docker compose build`.
