@@ -1,0 +1,12 @@
+
+> thewhot-goods-local@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.12 /Users/jedi/Documents/ChatGPT/HOOT/goods-local/goods-store
+
+
+ Test Files  1 passed (1)
+      Tests  11 passed (11)
+   Start at  00:30:45
+   Duration  113ms (transform 23ms, setup 0ms, import 30ms, tests 2ms, environment 0ms)

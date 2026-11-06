@@ -1,0 +1,41 @@
+{
+  "source": "QA database",
+  "destination": "Separate restored QA database",
+  "checks": [
+    {
+      "table": "product",
+      "rows": 4,
+      "matching": true
+    },
+    {
+      "table": "product_variant",
+      "rows": 4,
+      "matching": true
+    },
+    {
+      "table": "inventory_level",
+      "rows": 4,
+      "matching": true
+    },
+    {
+      "table": "customer",
+      "rows": 2,
+      "matching": true
+    },
+    {
+      "table": "order",
+      "rows": 2,
+      "matching": true
+    },
+    {
+      "table": "order_line_item",
+      "rows": 2,
+      "matching": true
+    },
+    {
+      "table": "order_summary",
+      "rows": 2,
+      "matching": true
+    }
+  ]
+}

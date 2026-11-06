@@ -1,0 +1,72 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  3.877MB
+Step 1/14 : FROM node:22-bookworm-slim AS build
+ ---> 5ec23b7c622b
+Step 2/14 : WORKDIR /app
+ ---> Using cache
+ ---> ce22b6853cfc
+Step 3/14 : COPY package*.json ./
+ ---> Using cache
+ ---> 111fd861bbf2
+Step 4/14 : RUN npm ci --no-audit --no-fund
+ ---> Using cache
+ ---> 3a5aed435093
+Step 5/14 : COPY . .
+ ---> a27de8a62ac8
+Step 6/14 : RUN DATABASE_URL=postgresql://unused:unused@localhost/build_only STORE_CORS=http://localhost ADMIN_CORS=http://localhost AUTH_CORS=http://localhost JWT_SECRET=build_only_placeholder_not_for_runtime_123 COOKIE_SECRET=build_only_placeholder_not_for_runtime_456 npm run build
+ ---> Running in ce46277753f9
+
+> thewhot-medusa@0.0.1 build
+> medusa build
+
+╔════════════════════════════════════════════════════════════════════════╗
+║                                                                        ║
+║   Medusa collects anonymous usage analytics                            ║
+║   to help improve Medusa for all users.                                ║
+║                                                                        ║
+║   If you'd like to opt-out, you can use `medusa telemetry --disable`   ║
+║                                                                        ║
+║                                                                        ║
+╚════════════════════════════════════════════════════════════════════════╝
+[32minfo[39m:    redisUrl not found. A fake redis instance will be used.
+[32minfo[39m:    Generating types...
+[32minfo[39m:    No link to load from /app/node_modules/@medusajs/draft-order/.medusa/server/src/links. skipped.
+[32minfo[39m:    Types generated successfully
+[32minfo[39m:    Starting build...
+[32minfo[39m:    Compiling backend source...
+[32minfo[39m:    Removing existing ".medusa/server" folder
+[32minfo[39m:    Compiling frontend source...
+[32minfo[39m:    Backend build completed successfully (3.80s)
+[32minfo[39m:    Frontend build completed successfully (13.95s)
+ ---> Removed intermediate container ce46277753f9
+ ---> a941f918e6ad
+Step 7/14 : FROM node:22-bookworm-slim
+ ---> 5ec23b7c622b
+Step 8/14 : WORKDIR /app
+ ---> Using cache
+ ---> ce22b6853cfc
+Step 9/14 : ENV NODE_ENV=production
+ ---> Using cache
+ ---> 5913b992a2e8
+Step 10/14 : COPY --from=build --chown=node:node /app/node_modules ./node_modules
+ ---> Using cache
+ ---> 91960f04c16a
+Step 11/14 : COPY --from=build --chown=node:node /app/.medusa/server ./
+ ---> 7f91f7481354
+Step 12/14 : USER node
+ ---> Running in 6752f8cb6c84
+ ---> Removed intermediate container 6752f8cb6c84
+ ---> dd9f227fbb91
+Step 13/14 : EXPOSE 9000
+ ---> Running in d37b70035ac1
+ ---> Removed intermediate container d37b70035ac1
+ ---> e0ca8b853fb6
+Step 14/14 : CMD ["node","node_modules/@medusajs/cli/cli.js","start","--host","0.0.0.0","--port","9000"]
+ ---> Running in 824f27bb3524
+ ---> Removed intermediate container 824f27bb3524
+ ---> 836ab6d83fd7
+Successfully built 836ab6d83fd7
+Successfully tagged thewhot-medusa:review

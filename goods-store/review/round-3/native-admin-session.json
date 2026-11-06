@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "flow": [
+    "emailpass token",
+    "HTTP session cookie",
+    "authenticated admin users/me"
+  ],
+  "cookie": {
+    "httpOnly": true,
+    "sameSite": "Lax",
+    "secure": false,
+    "scope": "loopback-only QA"
+  },
+  "credentialsLogged": false
+}

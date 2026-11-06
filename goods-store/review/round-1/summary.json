@@ -1,0 +1,28 @@
+{
+  "round": 1,
+  "status": "passed",
+  "completedAt": "2026-11-06T15:41:16.933Z",
+  "unitTests": 11,
+  "integrationChecks": 26,
+  "layoutChecks": 69,
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "brandPages": 18,
+  "imageReferences": 201,
+  "context": "Local Medusa transition",
+  "evidence": [
+    "brewmaster-768.png",
+    "build.log",
+    "content.json",
+    "home-1440.png",
+    "integration.log",
+    "layout.json",
+    "shop-390.png",
+    "typecheck.log",
+    "unit.log"
+  ],
+  "notes": []
+}

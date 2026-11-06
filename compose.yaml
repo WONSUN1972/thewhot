@@ -1,0 +1,56 @@
+name: thewhot-goods
+services:
+  db:
+    image: postgres:17-alpine
+    environment:
+      POSTGRES_USER: goods
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?set unique DB_PASSWORD}
+      POSTGRES_DB: goods_medusa
+    volumes: [goods_db:/var/lib/postgresql/data]
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U goods -d goods_medusa']
+      interval: 5s
+      retries: 20
+  redis:
+    image: redis:7-alpine
+    command: ['redis-server', '--appendonly', 'yes']
+    volumes: [goods_redis:/data]
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 5s
+      retries: 20
+  medusa:
+    build: ./medusa-backend
+    env_file: ./medusa-backend/.env
+    environment:
+      DATABASE_URL: postgresql://goods:${DB_PASSWORD}@db:5432/goods_medusa
+      REDIS_URL: redis://redis:6379
+    ports: ['127.0.0.1:9000:9000']
+    depends_on:
+      db: {condition: service_healthy}
+      redis: {condition: service_healthy}
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'node', '-e', 'fetch("http://127.0.0.1:9000/health").then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))']
+      interval: 20s
+      start_period: 60s
+      retries: 5
+  storefront:
+    build: ./goods-store
+    env_file: ./goods-store/.env.local
+    environment:
+      DATABASE_URL: postgresql://goods:${DB_PASSWORD}@db:5432/goods_medusa
+      MEDUSA_BACKEND_URL: http://medusa:9000
+    ports: ['127.0.0.1:8790:8790']
+    depends_on:
+      medusa: {condition: service_healthy}
+    restart: unless-stopped
+    healthcheck:
+      test: ['CMD', 'node', '-e', 'fetch("http://127.0.0.1:8790/api/health").then(r=>process.exit(r.ok?0:1)).catch(()=>process.exit(1))']
+      interval: 20s
+      retries: 5
+volumes:
+  goods_db:
+  goods_redis:

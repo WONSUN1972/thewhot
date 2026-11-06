@@ -1,0 +1,106 @@
+{
+  "deadline": "2026-11-07T09:00:00+09:00",
+  "planned": [
+    "2026-11-07T00:30:00+09:00",
+    "2026-11-07T04:30:00+09:00",
+    "2026-11-07T08:30:00+09:00"
+  ],
+  "completed": [
+    {
+      "round": 1,
+      "status": "passed",
+      "completedAt": "2026-11-06T15:41:16.933Z",
+      "unitTests": 11,
+      "integrationChecks": 26,
+      "layoutChecks": 69,
+      "viewports": [
+        390,
+        768,
+        1440
+      ],
+      "brandPages": 18,
+      "imageReferences": 201,
+      "context": "Local Medusa transition",
+      "evidence": [
+        "brewmaster-768.png",
+        "build.log",
+        "content.json",
+        "home-1440.png",
+        "integration.log",
+        "layout.json",
+        "shop-390.png",
+        "typecheck.log",
+        "unit.log"
+      ],
+      "notes": []
+    },
+    {
+      "round": 2,
+      "status": "passed",
+      "completedAt": "2026-11-06T15:41:16.935Z",
+      "unitTests": 11,
+      "integrationChecks": 26,
+      "layoutChecks": 69,
+      "viewports": [
+        390,
+        768,
+        1440
+      ],
+      "brandPages": 18,
+      "imageReferences": 201,
+      "context": "Clean Node 22 Docker images and isolated new database",
+      "evidence": [
+        "clean-database.log",
+        "concurrency.log",
+        "container-medusa-build.log",
+        "container-store-build.log",
+        "content.json",
+        "integration.log",
+        "layout.json",
+        "typecheck.log",
+        "unit.log"
+      ],
+      "notes": []
+    },
+    {
+      "round": 3,
+      "status": "passed",
+      "completedAt": "2026-11-06T15:41:16.936Z",
+      "unitTests": 11,
+      "integrationChecks": 26,
+      "layoutChecks": 69,
+      "viewports": [
+        390,
+        768,
+        1440
+      ],
+      "brandPages": 18,
+      "imageReferences": 201,
+      "context": "Post-restart regression, backup restore, native admin cookie fix",
+      "evidence": [
+        "admin-products.png",
+        "build.log",
+        "container-medusa-rebuild.log",
+        "content.json",
+        "idempotent-setup.log",
+        "integration.log",
+        "layout.json",
+        "medusa-admin.png",
+        "native-admin-session.json",
+        "restart.log",
+        "restore.json",
+        "typecheck.log",
+        "unit.log"
+      ],
+      "notes": [
+        "Native Medusa admin cookie issue fixed and API plus browser login verified.",
+        "Restore checksums matched all rows in 7 core tables.",
+        "No external PG, social login or server deployment performed."
+      ]
+    }
+  ],
+  "automationId": "3",
+  "stopCondition": "Three passed rounds and no unresolved deployment blockers; 09:00 alone does not stop work",
+  "inProgress": null,
+  "status": "three rounds passed"
+}

@@ -1,0 +1,27 @@
+PASS actual Medusa backend health
+PASS four non-alcohol sample products
+PASS anonymous order denied
+PASS local registration
+PASS customer cannot read admin
+PASS customer cannot change stock
+PASS negative quantity denied
+PASS unknown product denied
+PASS foreign origin denied
+PASS server calculates price and shipping
+PASS idempotency key rejects changed payload
+PASS customer can retrieve saved order
+PASS repeated concurrent request is idempotent
+PASS stock deducted exactly once
+PASS logout
+PASS session revoked
+PASS wrong password denied
+PASS password login
+PASS order persists across logout and new login
+PASS passwordless admin bypass removed
+PASS authenticated Medusa admin entry
+PASS admin order visibility
+PASS admin status update
+PASS admin inventory update and restore
+PASS real payment status not supported
+PASS admin session revoked after logout
+RESULT 26 integration checks passed; QA order order_01M6RQQQEPVX1PBJSJFZQG4VG6 retained as labelled test data.

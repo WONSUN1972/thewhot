@@ -1,0 +1,36 @@
+{
+  "round": 3,
+  "status": "passed",
+  "completedAt": "2026-11-06T15:41:16.936Z",
+  "unitTests": 11,
+  "integrationChecks": 26,
+  "layoutChecks": 69,
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "brandPages": 18,
+  "imageReferences": 201,
+  "context": "Post-restart regression, backup restore, native admin cookie fix",
+  "evidence": [
+    "admin-products.png",
+    "build.log",
+    "container-medusa-rebuild.log",
+    "content.json",
+    "idempotent-setup.log",
+    "integration.log",
+    "layout.json",
+    "medusa-admin.png",
+    "native-admin-session.json",
+    "restart.log",
+    "restore.json",
+    "typecheck.log",
+    "unit.log"
+  ],
+  "notes": [
+    "Native Medusa admin cookie issue fixed and API plus browser login verified.",
+    "Restore checksums matched all rows in 7 core tables.",
+    "No external PG, social login or server deployment performed."
+  ]
+}

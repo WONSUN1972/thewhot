@@ -1,0 +1,2 @@
+PASS pre-restart order/inventory snapshot saved privately
+PASS administrator session, orders, prices and stock persisted across process restart

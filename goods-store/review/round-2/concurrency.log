@@ -1,0 +1,2 @@
+PASS concurrent final-stock reservation; exactly one order accepted
+PASS failed concurrent order not exposed as saved order

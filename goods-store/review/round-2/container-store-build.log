@@ -1,0 +1,84 @@
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  204.7MB
+Step 1/14 : FROM node:22-bookworm-slim AS build
+ ---> 5ec23b7c622b
+Step 2/14 : WORKDIR /app
+ ---> Using cache
+ ---> ce22b6853cfc
+Step 3/14 : COPY package*.json ./
+ ---> Using cache
+ ---> b5a30f5b7854
+Step 4/14 : RUN npm ci --no-audit --no-fund
+ ---> Using cache
+ ---> fbf34593da4d
+Step 5/14 : COPY . .
+ ---> 95c322257d2e
+Step 6/14 : ENV NEXT_TELEMETRY_DISABLED=1
+ ---> Running in a8e3e874846e
+ ---> Removed intermediate container a8e3e874846e
+ ---> fb152d0158b1
+Step 7/14 : RUN npm run build
+ ---> Running in 7a9e7499d116
+
+> thewhot-goods-local@0.1.0 build
+> next build
+
+▲ Next.js 16.4.5 (Turbopack)
+✓ Running next.config took 9ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 1781ms
+  Running TypeScript ...
+  Finished TypeScript in 1617ms ...
+  Collecting page data using 1 worker ...
+  Generating static pages using 1 worker (0/20) ...
+  Generating static pages using 1 worker (5/20)
+  Generating static pages using 1 worker (10/20)
+  Generating static pages using 1 worker (15/20)
+✓ Generating static pages using 1 worker (20/20) in 177ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/[...path]
+└   /brand/[slug]
+  ├ ● /brand/BrandStory
+  ├ ● /brand/CONTACT
+  ├ ● /brand/DesignYourOwn
+  └ ● [+14 more paths]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+ ---> Removed intermediate container 7a9e7499d116
+ ---> c8f4613b253c
+Step 8/14 : FROM node:22-bookworm-slim
+ ---> 5ec23b7c622b
+Step 9/14 : WORKDIR /app
+ ---> Using cache
+ ---> ce22b6853cfc
+Step 10/14 : ENV NODE_ENV=production NEXT_TELEMETRY_DISABLED=1
+ ---> Using cache
+ ---> a43cf53070b2
+Step 11/14 : COPY --from=build --chown=node:node /app ./
+ ---> eb9d5e1343e1
+Step 12/14 : USER node
+ ---> Running in 2e1aa54f5537
+ ---> Removed intermediate container 2e1aa54f5537
+ ---> 315cd59d4450
+Step 13/14 : EXPOSE 8790
+ ---> Running in 9bc54ada8788
+ ---> Removed intermediate container 9bc54ada8788
+ ---> 789606073d94
+Step 14/14 : CMD ["node","node_modules/next/dist/bin/next","start","--hostname","0.0.0.0","--port","8790"]
+ ---> Running in 3d10f0bf258f
+ ---> Removed intermediate container 3d10f0bf258f
+ ---> 7dc3bc9877f2
+Successfully built 7dc3bc9877f2
+Successfully tagged thewhot-store:review

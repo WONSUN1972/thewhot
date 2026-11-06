@@ -1,0 +1,34 @@
+
+> thewhot-goods-local@0.1.0 build
+> next build
+
+▲ Next.js 16.4.5 (Turbopack)
+- Environments: .env.local
+✓ Running next.config took 6ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 277ms
+  Running TypeScript ...
+  Finished TypeScript in 829ms ...
+  Collecting page data using 6 workers ...
+  Generating static pages using 6 workers (0/20) ...
+  Generating static pages using 6 workers (5/20)
+  Generating static pages using 6 workers (10/20)
+  Generating static pages using 6 workers (15/20)
+✓ Generating static pages using 6 workers (20/20) in 260ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/[...path]
+└   /brand/[slug]
+  ├ ● /brand/BrandStory
+  ├ ● /brand/CONTACT
+  ├ ● /brand/DesignYourOwn
+  └ ● [+14 more paths]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand

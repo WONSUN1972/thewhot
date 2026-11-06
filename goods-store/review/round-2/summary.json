@@ -1,0 +1,28 @@
+{
+  "round": 2,
+  "status": "passed",
+  "completedAt": "2026-11-06T15:41:16.935Z",
+  "unitTests": 11,
+  "integrationChecks": 26,
+  "layoutChecks": 69,
+  "viewports": [
+    390,
+    768,
+    1440
+  ],
+  "brandPages": 18,
+  "imageReferences": 201,
+  "context": "Clean Node 22 Docker images and isolated new database",
+  "evidence": [
+    "clean-database.log",
+    "concurrency.log",
+    "container-medusa-build.log",
+    "container-store-build.log",
+    "content.json",
+    "integration.log",
+    "layout.json",
+    "typecheck.log",
+    "unit.log"
+  ],
+  "notes": []
+}

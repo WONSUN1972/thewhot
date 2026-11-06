@@ -1,0 +1,7 @@
+import fs from 'node:fs';import assert from 'node:assert/strict';
+const base=process.env.TEST_BASE_URL||'http://127.0.0.1:8791',file=process.env.TEST_SESSION_FILE;if(!file)throw Error('Set a private TEST_SESSION_FILE outside Git.');
+if(process.argv[2]==='before'){
+ const r=await fetch(base+'/api/admin/login',{method:'POST',headers:{Origin:base,'Content-Type':'application/json'},body:JSON.stringify({email:process.env.BOOTSTRAP_ADMIN_EMAIL,password:process.env.BOOTSTRAP_ADMIN_PASSWORD})});assert.equal(r.status,200);const cookie=r.headers.get('set-cookie').split(';')[0];const data=await (await fetch(base+'/api/admin',{headers:{Cookie:cookie}})).json();fs.writeFileSync(file,JSON.stringify({cookie,ids:data.orders.map(o=>o.id).sort(),products:data.products.map(p=>({id:p.id,stock:p.stock,price:p.price}))}),{mode:0o600});console.log('PASS pre-restart order/inventory snapshot saved privately');
+}else{
+ const before=JSON.parse(fs.readFileSync(file,'utf8'));const r=await fetch(base+'/api/admin',{headers:{Cookie:before.cookie}});assert.equal(r.status,200);const data=await r.json();assert.deepEqual(data.orders.map(o=>o.id).sort(),before.ids);assert.deepEqual(data.products.map(p=>({id:p.id,stock:p.stock,price:p.price})),before.products);await fetch(base+'/api/logout',{method:'POST',headers:{Origin:base,'Content-Type':'application/json',Cookie:before.cookie},body:'{}'});fs.unlinkSync(file);console.log('PASS administrator session, orders, prices and stock persisted across process restart');
+}

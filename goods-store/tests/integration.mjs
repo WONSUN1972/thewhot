@@ -1,0 +1,30 @@
+import assert from 'node:assert/strict';
+import {randomUUID} from 'node:crypto';
+const base=process.env.TEST_BASE_URL||'http://127.0.0.1:8790';let cookie='';let checks=0;
+async function req(path,body,options={}){const r=await fetch(base+'/api/'+path,{method:body===undefined?'GET':'POST',headers:{'Content-Type':'application/json',Origin:options.origin??base,Cookie:options.cookie??cookie},body:body===undefined?undefined:JSON.stringify(body)});if(options.saveCookie&&r.headers.get('set-cookie'))cookie=r.headers.get('set-cookie').split(';')[0];return {status:r.status,data:await r.json()}}
+function check(v,msg){assert.ok(v,msg);checks++;console.log('PASS '+msg)}
+const suffix=Date.now();let r=await req('health');check(r.status===200&&r.data.backend==='medusa','actual Medusa backend health');r=await req('products');check(r.status===200&&r.data.length===4,'four non-alcohol sample products');const original=r.data.find(p=>p.id==='glass');
+r=await req('orders',{items:[{id:'glass',quantity:1}],key:randomUUID()});check(r.status===401,'anonymous order denied');
+r=await req('register',{name:'통합테스트',email:`qa-${suffix}@example.test`,password:'Local-Test-Only-2026'},{saveCookie:true});check(r.status===200,'local registration');const customer=cookie;
+r=await req('admin');check(r.status===403,'customer cannot read admin');
+r=await req('admin/product',{id:'glass',price:1,stock:1});check(r.status===403,'customer cannot change stock');
+r=await req('orders',{items:[{id:'glass',quantity:-1}],key:randomUUID()});check(r.status===400,'negative quantity denied');
+r=await req('orders',{items:[{id:'not-a-good',quantity:1}],key:randomUUID()});check(r.status===400,'unknown product denied');
+r=await req('orders',{items:[{id:'glass',quantity:1}],key:randomUUID()},{origin:'https://untrusted.example'});check(r.status===403,'foreign origin denied');
+const key=randomUUID(),request={items:[{id:'glass',quantity:1,price:1}],key,total:1};r=await req('orders',request);check(r.status===200&&r.data.total===original.price+3000,'server calculates price and shipping');const order=r.data;
+r=await req('orders',{items:[{id:'glass',quantity:2}],key});check(r.status===409,'idempotency key rejects changed payload');
+r=await req('orders');check(r.status===200&&r.data.some(o=>o.id===order.id),'customer can retrieve saved order');
+const concurrent=await Promise.all([req('orders',request),req('orders',request)]);check(concurrent.every(x=>x.status===200&&x.data.id===order.id),'repeated concurrent request is idempotent');
+r=await req('products');check(r.data.find(p=>p.id==='glass').stock===original.stock-1,'stock deducted exactly once');
+r=await req('logout',{});check(r.status===200,'logout');r=await req('me');check(r.data.user===null,'session revoked');
+r=await req('login',{email:`qa-${suffix}@example.test`,password:'wrong'});check(r.status===401,'wrong password denied');
+r=await req('login',{email:`qa-${suffix}@example.test`,password:'Local-Test-Only-2026'},{saveCookie:true});check(r.status===200,'password login');
+r=await req('orders');check(r.data.some(o=>o.id===order.id),'order persists across logout and new login');
+r=await req('demo-admin',{});check(r.status===404,'passwordless admin bypass removed');
+r=await req('admin/login',{email:process.env.BOOTSTRAP_ADMIN_EMAIL,password:process.env.BOOTSTRAP_ADMIN_PASSWORD},{saveCookie:true});check(r.status===200,'authenticated Medusa admin entry');
+r=await req('admin');check(r.status===200&&r.data.orders.some(x=>x.id===order.id),'admin order visibility');
+r=await req('admin/order',{id:order.id,status:'DEMO_DONE'});check(r.status===200,'admin status update');
+r=await req('admin/product',{id:'glass',price:original.price,stock:original.stock});check(r.status===200,'admin inventory update and restore');
+r=await req('admin/order',{id:order.id,status:'PAID'});check(r.status===400,'real payment status not supported');
+await req('logout',{});r=await req('admin');check(r.status===401,'admin session revoked after logout');
+console.log(`RESULT ${checks} integration checks passed; QA order ${order.id} retained as labelled test data.`);

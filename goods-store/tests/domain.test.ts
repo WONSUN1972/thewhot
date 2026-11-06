@@ -1,0 +1,4 @@
+import {describe,it,expect} from 'vitest';
+import {validateCart,shipping} from '../src/lib/domain';
+describe('cart validation',()=>{it('accepts a legitimate goods cart',()=>expect(validateCart([{id:'glass',quantity:2}])).toEqual([{id:'glass',quantity:2}]));it.each([[],[{id:'glass',quantity:0}],[{id:'glass',quantity:-1}],[{id:'glass',quantity:1.5}],[{id:'glass',quantity:21}],[{id:'glass',quantity:1},{id:'glass',quantity:1}],null])('rejects invalid cart %j',(x)=>expect(()=>validateCart(x)).toThrow());it('ignores client-provided price',()=>expect(validateCart([{id:'glass',quantity:1,price:1}])).toEqual([{id:'glass',quantity:1}]))});
+describe('shipping boundary',()=>{it('charges below threshold',()=>expect(shipping(49999)).toBe(3000));it('same simulation fee above threshold',()=>expect(shipping(50000)).toBe(3000))});

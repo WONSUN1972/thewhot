@@ -1,0 +1,29 @@
+{
+  "pages": {
+    "home": "migration/thewhot-cafe24/preview/index.html",
+    "BrandStory": "migration/thewhot-cafe24/preview/brand/BrandStory.html",
+    "CONTACT": "migration/thewhot-cafe24/preview/brand/CONTACT.html",
+    "DesignYourOwn": "migration/thewhot-cafe24/preview/brand/DesignYourOwn.html",
+    "DesignbyUs": "migration/thewhot-cafe24/preview/brand/DesignbyUs.html",
+    "OurPartners": "migration/thewhot-cafe24/preview/brand/OurPartners.html",
+    "OurProcess": "migration/thewhot-cafe24/preview/brand/OurProcess.html",
+    "Pairing": "migration/thewhot-cafe24/preview/brand/Pairing.html",
+    "People": "migration/thewhot-cafe24/preview/brand/People.html",
+    "Promotion": "migration/thewhot-cafe24/preview/brand/Promotion.html",
+    "SpecialSeasonal": "migration/thewhot-cafe24/preview/brand/SpecialSeasonal.html",
+    "Year-Round": "migration/thewhot-cafe24/preview/brand/Year-Round.html",
+    "hansalim": "migration/thewhot-cafe24/preview/brand/hansalim.html",
+    "thewhotBrewery": "migration/thewhot-cafe24/preview/brand/thewhotBrewery.html",
+    "Brewmaster": "migration/thewhot-cafe24/document-content/site/Brewmaster.html",
+    "Journey": "migration/thewhot-cafe24/document-content/site/Journey.html",
+    "Achievements": "migration/thewhot-cafe24/document-content/site/Achievements.html",
+    "Sustainability": "migration/thewhot-cafe24/document-content/site/Sustainability.html"
+  },
+  "localImages": 185,
+  "missingImages": [],
+  "notes": [
+    "기존 보관본의 브랜드 본문 유지",
+    "현행 사이트와 차이 대조는 예약 검증에서 계속",
+    "기존 게시물 광고 제외 판단은 board-review.json을 따르며 원본은 변경하지 않음"
+  ]
+}

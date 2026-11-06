@@ -1,0 +1,56 @@
+{
+  "status": "READY_FOR_SERVER_DEMO_DEPLOYMENT",
+  "scope": "Non-alcohol sample goods and retained brand site; no actual selling, payment or shipping",
+  "verified": [
+    "Medusa 2.22.4 is actual product/customer/inventory/order backend",
+    "Clean Docker installation and build on Node 22.23.4",
+    "Empty isolated DB migration and repeatable seed",
+    "Customer/admin auth and role separation",
+    "Passwordless administrator bypass removed",
+    "Server-calculated totals and idempotency",
+    "Concurrent last-stock reservation accepts exactly one order",
+    "Restart preserves session, order, price and inventory",
+    "Backup restoration: seven core tables exact row checksums",
+    "Three rounds: 11 unit and 26 integration checks each; 69 layout checks each",
+    "Native Medusa Admin login and persisted demo orders visible",
+    "Images and archived brand main retained"
+  ],
+  "unresolvedCodeBlockers": [],
+  "notVerified": [
+    "Actual target server OS/resources/firewall/DNS/TLS/reverse proxy",
+    "Docker Compose invocation on this Mac (plugin absent; equivalent Docker CLI images/network tested)",
+    "Live Imweb latest-copy equality; archived version used"
+  ],
+  "pendingExternal": [
+    "Firebase",
+    "Social login",
+    "Real PG",
+    "Production shipping/email services"
+  ],
+  "requiredBeforePublicServer": [
+    "Unique production secrets and fresh production DB; do not import QA accounts/orders",
+    "Correct HTTPS APP_ORIGIN and CORS; secure cookies enabled; ALLOW_LOCAL_HTTP=false",
+    "TLS reverse proxy and private DB/Redis networking",
+    "Server deployment authorization and server-specific smoke test"
+  ],
+  "limitations": [
+    "Sample goods only; actual commercial readiness is not claimed",
+    "Medusa system payment Authorized label is simulation, not real financial authorization",
+    "Embedded image text remains original and is not editable HTML"
+  ],
+  "rounds": [
+    {
+      "round": 1,
+      "status": "passed"
+    },
+    {
+      "round": 2,
+      "status": "passed"
+    },
+    {
+      "round": 3,
+      "status": "passed"
+    }
+  ],
+  "actualServerDeployed": false
+}
