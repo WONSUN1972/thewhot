@@ -1,0 +1,16 @@
+{
+  "originalImages": 56,
+  "preservedImages": 56,
+  "beerImages": 5,
+  "themeImages": [
+    8,
+    10,
+    7,
+    6,
+    11,
+    8
+  ],
+  "newBrandImage": "/brand/pouring.jpg",
+  "allOriginalImagesPreserved": true,
+  "scope": "Design introduction only; no order or quantity controls"
+}

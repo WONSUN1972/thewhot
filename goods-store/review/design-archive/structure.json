@@ -1,0 +1,18 @@
+{
+  "title": "Design by Us — 디자인 소개 페이지",
+  "sections": [
+    "소개: 하나의 캔, 서로 다른 이야기",
+    "맥주 디자인: 기존 제품 이미지 5장",
+    "하이볼·진묘수: 패키지 색감·타이포그래피·캐릭터 소개",
+    "디자인 아카이브: Season / Picture / Anniversary / Retro / Simple / Nature",
+    "디자인 노트와 일반 브랜드 문의",
+    "기존 소개 이미지 원본 펼쳐보기"
+  ],
+  "preservation": "기존 이미지 56장 보존, 원본 archive JSON 유지",
+  "interaction": [
+    "페이지 내 목차 이동",
+    "테마 이미지 원본 새 창 보기",
+    "진묘수 브랜드 이야기 연결"
+  ],
+  "localOnly": true
+}
