@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "testedCommit": "168e6d793b1dfe49371f9279f20d9549aa87fd2a",
+  "image": "sha256:e7d2f82aee226f65b7d73836c7cd1b451387b91a86dfc89cc4aabeafda2ea085",
+  "originalVolume": "thewhot-compose-review_goods_uploads",
+  "restoredVolume": "thewhot-upload-restore-review",
+  "restoredContainerId": "18e7f337648b2e47c49a8d53e0fcf69f909f9f328dca2b9f241174f505f9d673",
+  "httpStatus": 200,
+  "fileSHA256": "f90b3d5603711ef7e105395b0bb5ddcb518bce63167d04efb93446948143b9c9",
+  "expectedSHA256": "f90b3d5603711ef7e105395b0bb5ddcb518bce63167d04efb93446948143b9c9",
+  "archiveSHA256": "5b63d5b34b62c90b00cf3746cecefc993843a404845713ccb8a380c038518b5d",
+  "archiveLocation": "/Users/jedi/Documents/ChatGPT/HOOT/backups/upload-volume-20261107/public-images.tar.gz",
+  "scope": "Public image volume restore to fresh volume; existing isolated DB retained. Full DB restore separately verified in round-3.",
+  "originalUserDataModified": false
+}

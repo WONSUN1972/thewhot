@@ -1,0 +1,25 @@
+{
+  "testedCommit": "168e6d793b1dfe49371f9279f20d9549aa87fd2a",
+  "live": {
+    "id": "4d43772df228251ad952247f8bf9b5efe5fc647eef71e65a4d57eb3eec7c0b3a",
+    "image": "sha256:e7d2f82aee226f65b7d73836c7cd1b451387b91a86dfc89cc4aabeafda2ea085",
+    "mounts": [
+      {
+        "type": "volume",
+        "name": "thewhot-review-uploads",
+        "destination": "/app/static"
+      }
+    ]
+  },
+  "isolatedAfterRecreate": {
+    "id": "bb13d5e3ba240194b8246c201e332ab0ee9ab36eebd76c63612b4e62ec6415b3",
+    "image": "sha256:e7d2f82aee226f65b7d73836c7cd1b451387b91a86dfc89cc4aabeafda2ea085",
+    "mounts": [
+      {
+        "type": "volume",
+        "name": "thewhot-compose-review_goods_uploads",
+        "destination": "/app/static"
+      }
+    ]
+  }
+}

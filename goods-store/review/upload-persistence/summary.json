@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "testedCommit": "168e6d793b1dfe49371f9279f20d9549aa87fd2a",
+  "scope": "Targeted impact regression, not a fourth full QA round",
+  "fullReviewRounds": 3,
+  "checks": {
+    "liveUploadMount": "named volume thewhot-review-uploads, not a temporary bind",
+    "committedComposeMount": "goods_uploads:/app/static",
+    "isolatedContainerRecreation": "HTTP 200 and exact original SHA256 after --force-recreate",
+    "isolatedBackupRestore": "archive restored into a fresh named volume; HTTP 200 and exact original SHA256",
+    "restoredPermissions": "UID 1000 can read and write /app/static",
+    "coreIntegration": 26,
+    "externalDeployment": false
+  },
+  "evidence": [
+    "mounts.json",
+    "recreated-image.json",
+    "restored-image.json",
+    "integration.log",
+    "upload.log"
+  ],
+  "existingEvidence": [
+    "../menu-upload-fix/summary.json",
+    "../round-3/summary.json"
+  ],
+  "cleanup": "Only supplement Compose containers stopped; original and restored volumes retained. User-facing 8791/9001 services remain running.",
+  "pending": "Actual target server access, DNS/TLS/firewall/proxy and external integrations remain unverified."
+}

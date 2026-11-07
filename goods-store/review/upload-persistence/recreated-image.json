@@ -1,0 +1,7 @@
+{
+  "url": "http://127.0.0.1:9002/static/1794057624663-upload-regression.png",
+  "expectedSHA256": "f90b3d5603711ef7e105395b0bb5ddcb518bce63167d04efb93446948143b9c9",
+  "actualSHA256": "f90b3d5603711ef7e105395b0bb5ddcb518bce63167d04efb93446948143b9c9",
+  "status": 200,
+  "after": "Compose --force-recreate medusa with committed named upload volume"
+}
