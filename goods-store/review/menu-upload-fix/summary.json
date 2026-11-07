@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "scope": "Targeted follow-up after user reported upload failure and requested all-menu checks. Original three full QA rounds remain unchanged.",
+  "baselineMain": "32cabb15924e941f041795d8432abea0ac7cc6db",
+  "changes": [
+    "Common home/brand header with search, account and cart",
+    "Only one dropdown open; Escape/outside click/link navigation closes menus",
+    "Mobile dropdown stays within viewport",
+    "Journey link text changed to 더홋이 걸어온 길",
+    "Writable Docker upload folder, persistent Compose upload volume and configurable public file URL"
+  ],
+  "verification": {
+    "menuDestinations": 18,
+    "actualMenuClicks": 18,
+    "responsiveMeasurements": 57,
+    "widths": [
+      390,
+      768,
+      1440
+    ],
+    "footerLinks": 6,
+    "unitTests": 11,
+    "containerTypecheck": "passed",
+    "dockerBuilds": "frontend and Medusa passed",
+    "content": {
+      "pages": 18,
+      "images": 201,
+      "internalLinks": 28,
+      "failures": []
+    },
+    "upload": "Authenticated multipart upload, public URL on port 9001, SHA256 equality and restart persistence passed"
+  },
+  "brewmaster": {
+    "source": "https://thewhotdev.cafe24.com/brand/Brewmaster.html",
+    "allSourceTextAlreadyPresent": true,
+    "images": 7,
+    "localPath": "/brand/Brewmaster"
+  },
+  "deployment": "Updated localhost ports 8791 and 9001 only; external services unchanged"
+}

@@ -1,6 +1,6 @@
 'use client';
 import {useEffect,useState} from 'react';
-import BrandNav from '@/components/BrandNav';
+import SiteHeader from '@/components/SiteHeader';
 import brandPages from '@/content/brand-pages.json';
 import {money,shipping} from '@/lib/domain';
 type Product={id:string;name:string;category:string;price:number;stock:number;description:string;variant:string;image:string};
@@ -17,12 +17,13 @@ function go(v:string){setView(v);setError('');setDetail(null);window.location.ha
 async function refresh(){const [p,m]=await Promise.all([api('products'),api('me')]);setProducts(p);setMember(m.user)}
 useEffect(()=>{refresh().catch(e=>setError(e.message));const v=window.location.hash.slice(1);if(['home','shop','brand','about','cart','account','admin'].includes(v))setView(v);try{const c=JSON.parse(localStorage.getItem('whot-goods-cart')||'{}');if(c&&typeof c==='object'&&!Array.isArray(c))setCart(Object.fromEntries(Object.entries(c).filter(([k,v])=>['glass','tee','tote','mug'].includes(k)&&Number.isInteger(v)&&Number(v)>0&&Number(v)<=20).map(([k,v])=>[k,Number(v)])))}catch{}setReady(true);const h=()=>{const v=location.hash.slice(1)||'home';if(['home','shop','brand','about','cart','account','admin'].includes(v))setView(v)};window.addEventListener('hashchange',h);return()=>window.removeEventListener('hashchange',h)},[]);
 useEffect(()=>{if(ready){localStorage.setItem('whot-goods-cart',JSON.stringify(cart));setOrderKey(crypto.randomUUID())}},[cart,ready]);
+useEffect(()=>{if(view==='shop'&&new URLSearchParams(window.location.search).has('search'))document.getElementById('search')?.focus()},[view]);
 useEffect(()=>{if(toast){const t=setTimeout(()=>setToast(''),4000);return()=>clearTimeout(t)}},[toast]);
 useEffect(()=>{if(view==='account'&&member)api('orders').then(setOrders).catch(e=>setError(e.message));if(view==='admin'&&member?.role==='admin')api('admin').then(setAdmin).catch(e=>setError(e.message))},[view,member]);
 const count=Object.values(cart).reduce((a,b)=>a+b,0),lines=products.filter(p=>cart[p.id]),subtotal=lines.reduce((a,p)=>a+p.price*cart[p.id],0);
 function add(p:Product){if((cart[p.id]||0)>=Math.min(p.stock,20)){setToast('담을 수 있는 수량을 확인해 주세요.');return}setCart(c=>({...c,[p.id]:(c[p.id]||0)+1}));setToast(p.name+' 상품을 장바구니에 담았습니다.');setDetail(null)}
 async function run(fn:()=>Promise<void>){setBusy(true);setError('');try{await fn()}catch(e){setError(e instanceof Error?e.message:'다시 시도해 주세요.')}finally{setBusy(false)}}
-return <><div className="notice">LOCAL PREVIEW <span>비주류 굿즈 시제품 · 상품·가격·이미지는 검토용 예시입니다.</span></div><header><a className="logo" href="#home" onClick={()=>go('home')}><img src="/wordmark.png" alt="the whot BREWERY"/></a><BrandNav/><div className="tools"><button aria-label="상품 검색" onClick={()=>{go('shop');setTimeout(()=>document.getElementById('search')?.focus(),100)}}><Icon name="search"/></button><button aria-label="회원" onClick={()=>go('account')}><Icon name="person"/></button><button aria-label={'장바구니 '+count+'개'} onClick={()=>go('cart')}><Icon name="shopping_bag"/><b>{count}</b></button></div></header>
+return <><SiteHeader count={count} onNavigate={go}/>
 {error&&<div role="alert" className="error">{error}<button onClick={()=>setError('')} aria-label="오류 닫기">×</button></div>}
 <main>
 {view==='home'&&<><div className="preserved-main" dangerouslySetInnerHTML={{__html:brandPages.home.html}}/><div className="brand-extra"><a href="/#brand" onClick={()=>go('brand')}>Jin-myo-soo · 브랜드 자료</a><a href="/brand/Brewmaster">Brewmaster · 브루마스터 소개</a><a href="/#shop" onClick={()=>go('shop')}>SHOP · 비주류 굿즈</a></div></>}

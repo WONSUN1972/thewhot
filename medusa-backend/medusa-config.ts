@@ -20,9 +20,11 @@ module.exports = defineConfig({
   redisUrl: process.env.REDIS_URL,
   http: {storeCors:process.env.STORE_CORS!,adminCors:process.env.ADMIN_CORS!,authCors:process.env.AUTH_CORS!,jwtSecret:process.env.JWT_SECRET!,cookieSecret:process.env.COOKIE_SECRET!}
  },
- modules: process.env.REDIS_URL ? [
+ modules: [
+  {resolve:'@medusajs/medusa/file',options:{providers:[{resolve:'@medusajs/medusa/file-local',id:'local',options:{backend_url:process.env.FILE_PUBLIC_URL || 'http://localhost:9000/static'}}]}},
+  ...(process.env.REDIS_URL ? [
   {resolve:'@medusajs/medusa/event-bus-redis', options:{redisUrl:process.env.REDIS_URL}},
   {resolve:'@medusajs/medusa/workflow-engine-redis',options:{redis:{redisUrl:process.env.REDIS_URL}}},
   {resolve:'@medusajs/medusa/locking',options:{providers:[{resolve:'@medusajs/medusa/locking-redis',id:'locking-redis',is_default:true,options:{redisUrl:process.env.REDIS_URL}}]}}
- ] : []
+ ] : [])]
 })

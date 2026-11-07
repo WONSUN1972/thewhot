@@ -1,0 +1,1090 @@
+{
+  "routes": [
+    {
+      "menu": "Brand Story",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/BrandStory"
+    },
+    {
+      "menu": "Our Process",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/OurProcess"
+    },
+    {
+      "menu": "the whot Brewery",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/thewhotBrewery"
+    },
+    {
+      "menu": "Journey",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Journey"
+    },
+    {
+      "menu": "Sustainability",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Sustainability"
+    },
+    {
+      "menu": "Year-Round",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Year-Round"
+    },
+    {
+      "menu": "Special & Seasonal",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/SpecialSeasonal"
+    },
+    {
+      "menu": "Pairing",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Pairing"
+    },
+    {
+      "menu": "Jin-myo-soo",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/#brand"
+    },
+    {
+      "menu": "Our Partners",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/OurPartners"
+    },
+    {
+      "menu": "Design by Us",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/DesignbyUs"
+    },
+    {
+      "menu": "Design Your Own",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/DesignYourOwn"
+    },
+    {
+      "menu": "Activities",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Achievements"
+    },
+    {
+      "menu": "Promotion",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Promotion"
+    },
+    {
+      "menu": "People",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/People"
+    },
+    {
+      "menu": "BREWMASTER",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/Brewmaster"
+    },
+    {
+      "menu": "CONTACT",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/brand/CONTACT"
+    },
+    {
+      "menu": "SHOP",
+      "header": true,
+      "main": true,
+      "navLinks": [
+        "/brand/BrandStory",
+        "/brand/OurProcess",
+        "/brand/thewhotBrewery",
+        "/brand/Journey",
+        "/brand/Sustainability",
+        "/brand/Brewmaster",
+        "/brand/Year-Round",
+        "/brand/SpecialSeasonal",
+        "/brand/Pairing",
+        "/#brand",
+        "/brand/OurPartners",
+        "/brand/DesignbyUs",
+        "/brand/DesignYourOwn",
+        "/brand/Achievements",
+        "/brand/Promotion",
+        "/brand/People",
+        "/brand/CONTACT",
+        "/#shop"
+      ],
+      "notFound": false,
+      "overflow": false,
+      "tools": 3,
+      "url": "/#shop"
+    }
+  ],
+  "clicks": [
+    {
+      "menu": "Brand Story",
+      "expected": "/brand/BrandStory",
+      "open": 0,
+      "url": "/brand/BrandStory"
+    },
+    {
+      "menu": "Our Process",
+      "expected": "/brand/OurProcess",
+      "open": 0,
+      "url": "/brand/OurProcess"
+    },
+    {
+      "menu": "the whot Brewery",
+      "expected": "/brand/thewhotBrewery",
+      "open": 0,
+      "url": "/brand/thewhotBrewery"
+    },
+    {
+      "menu": "Journey",
+      "expected": "/brand/Journey",
+      "open": 0,
+      "url": "/brand/Journey"
+    },
+    {
+      "menu": "Sustainability",
+      "expected": "/brand/Sustainability",
+      "open": 0,
+      "url": "/brand/Sustainability"
+    },
+    {
+      "menu": "Year-Round",
+      "expected": "/brand/Year-Round",
+      "open": 0,
+      "url": "/brand/Year-Round"
+    },
+    {
+      "menu": "Special & Seasonal",
+      "expected": "/brand/SpecialSeasonal",
+      "open": 0,
+      "url": "/brand/SpecialSeasonal"
+    },
+    {
+      "menu": "Pairing",
+      "expected": "/brand/Pairing",
+      "open": 0,
+      "url": "/brand/Pairing"
+    },
+    {
+      "menu": "Jin-myo-soo",
+      "expected": "/#brand",
+      "open": 0,
+      "url": "/#brand"
+    },
+    {
+      "menu": "Our Partners",
+      "expected": "/brand/OurPartners",
+      "open": 0,
+      "url": "/brand/OurPartners"
+    },
+    {
+      "menu": "Design by Us",
+      "expected": "/brand/DesignbyUs",
+      "open": 0,
+      "url": "/brand/DesignbyUs"
+    },
+    {
+      "menu": "Design Your Own",
+      "expected": "/brand/DesignYourOwn",
+      "open": 0,
+      "url": "/brand/DesignYourOwn"
+    },
+    {
+      "menu": "Activities",
+      "expected": "/brand/Achievements",
+      "open": 0,
+      "url": "/brand/Achievements"
+    },
+    {
+      "menu": "Promotion",
+      "expected": "/brand/Promotion",
+      "open": 0,
+      "url": "/brand/Promotion"
+    },
+    {
+      "menu": "People",
+      "expected": "/brand/People",
+      "open": 0,
+      "url": "/brand/People"
+    },
+    {
+      "menu": "BREWMASTER",
+      "expected": "/brand/Brewmaster",
+      "open": 0,
+      "url": "/brand/Brewmaster"
+    },
+    {
+      "menu": "CONTACT",
+      "expected": "/brand/CONTACT",
+      "open": 0,
+      "url": "/brand/CONTACT"
+    },
+    {
+      "menu": "SHOP",
+      "expected": "/#shop",
+      "open": 0,
+      "url": "/#shop"
+    }
+  ],
+  "responsive": [
+    {
+      "page": "Home",
+      "header": 221.359375,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Brand Story",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Our Process",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "the whot Brewery",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Journey",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Sustainability",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Year-Round",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Special & Seasonal",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Pairing",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Jin-myo-soo",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Our Partners",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Design by Us",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Design Your Own",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Activities",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Promotion",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "People",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "BREWMASTER",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "CONTACT",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "SHOP",
+      "header": 164.6875,
+      "overflow": false,
+      "tools": 3,
+      "width": 390
+    },
+    {
+      "page": "Home",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Brand Story",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Our Process",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "the whot Brewery",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Journey",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Sustainability",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Year-Round",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Special & Seasonal",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Pairing",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Jin-myo-soo",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Our Partners",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Design by Us",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Design Your Own",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Activities",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Promotion",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "People",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "BREWMASTER",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "CONTACT",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "SHOP",
+      "header": 127.6640625,
+      "overflow": false,
+      "tools": 3,
+      "width": 768
+    },
+    {
+      "page": "Home",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Brand Story",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Our Process",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "the whot Brewery",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Journey",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Sustainability",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Year-Round",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Special & Seasonal",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Pairing",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Jin-myo-soo",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Our Partners",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Design by Us",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Design Your Own",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Activities",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "Promotion",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "People",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "BREWMASTER",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "CONTACT",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    },
+    {
+      "page": "SHOP",
+      "header": 105,
+      "overflow": false,
+      "tools": 3,
+      "width": 1440
+    }
+  ],
+  "utility": [
+    {
+      "name": "회원",
+      "url": "http://127.0.0.1:8791/#account",
+      "heading": "MY ACCOUNT\n다시 만나 반가워요.\n\n로컬 테스트 전용입니다. 실제 사용하는 비밀번호와 개인정보를 입력하지 마세요.\n\n이메일\n비밀번호\n로그"
+    },
+    {
+      "name": "장바구니 1개",
+      "url": "http://127.0.0.1:8791/#cart",
+      "heading": "YOUR SELECTION\n장바구니 1\nthe whot\nEVERYDAY OBJECTS\nDRINKWARE\n시그니처 글라스\n\nCLEAR · 350m"
+    },
+    {
+      "name": "the whot BREWERY",
+      "url": "http://127.0.0.1:8791/#home",
+      "heading": "추천 페어링 보기\nJin-myo-soo · 브랜드 자료\nBrewmaster · 브루마스터 소개\nSHOP · 비주류 굿즈"
+    }
+  ],
+  "footerLinks": [
+    {
+      "href": "#shop",
+      "text": "Shop"
+    },
+    {
+      "href": "#brand",
+      "text": "Brand archive"
+    },
+    {
+      "href": "#about",
+      "text": "Our story"
+    },
+    {
+      "href": "#account",
+      "text": "My account"
+    },
+    {
+      "href": "#cart",
+      "text": "Shopping bag"
+    },
+    {
+      "href": "#admin",
+      "text": "Local back office"
+    }
+  ],
+  "dropdown": {
+    "singleOpen": true,
+    "escapeCloses": true
+  }
+}

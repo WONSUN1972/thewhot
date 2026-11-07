@@ -9,6 +9,7 @@ WORKDIR /app
 ENV NODE_ENV=production
 COPY --from=build --chown=node:node /app/node_modules ./node_modules
 COPY --from=build --chown=node:node /app/.medusa/server ./
+RUN mkdir -p /app/static && chown node:node /app/static
 USER node
 EXPOSE 9000
 CMD ["node","node_modules/@medusajs/cli/cli.js","start","--host","0.0.0.0","--port","9000"]
