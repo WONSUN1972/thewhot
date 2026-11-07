@@ -1,0 +1,6 @@
+const values=[
+ {label:'LOCAL ROOTS',title:'지역상생의 가치',text:'이천 쌀의 우수성을 널리 알리며, 지역 농가와의 상생을 통해 새로운 가치를 창출하고 있습니다.',image:'이천의 햇살 아래 익어가는 벼 이삭',left:'-30.76923%'},
+ {label:'CRAFT & PATIENCE',title:'장인정신의 가치',text:'끊임없는 R&D 투자와 장기간 숙성을 거치는 전통적인 제작 방식을 유지하며, 수제 맥주 본연의 가치를 지켜갑니다.',image:'양조 설비를 살피는 장인의 손',left:'-134.61538%'},
+ {label:'CIRCULAR FUTURE',title:'지속가능의 가치',text:'양조 부산물을 활용한 2차 제작물 가공과 탄소 순환 솔루션 적용을 통해, 지속 가능한 순환 경제 실현에 앞장서고 있습니다.',image:'양조 부산물을 활용한 비누와 원료',left:'-238.46154%'}
+];
+export default function BrandValues(){return <section className="brand-values" aria-labelledby="brand-values-title"><div className="values-heading"><p className="values-eyebrow">ROOTED IN ICHEON</p><h2 id="brand-values-title">자연주의 브루어리와<br/>이천쌀의 만남</h2><p className="values-intro">지역의 재료에서 시작해,<br/>만드는 과정과 그다음의 쓰임까지.</p></div><div className="values-grid">{values.map((v,i)=><article key={v.label}><div className="values-photo"><img src="/legacy/ae0a017a366b_5e07a4cffd640.png" alt={v.image} style={{left:v.left}} loading="lazy"/></div><div className="values-caption"><span className="values-number">0{i+1}</span><span>{v.label}</span></div><h3>{v.title}</h3><p>{v.text}</p></article>)}</div><div className="values-end"><span>THE WHOT · OUR VALUES</span><a href="/brand/Journey">더홋이 걸어온 길 <span aria-hidden="true">↗</span></a></div></section>}

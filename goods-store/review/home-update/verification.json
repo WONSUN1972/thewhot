@@ -1,0 +1,90 @@
+{
+  "slides": [
+    {
+      "image": "/brand/pouring.jpg",
+      "label": "1 / 7",
+      "link": "/#brand"
+    },
+    {
+      "image": "/legacy/9696843f11f1_b8e6976f9ef2a.png",
+      "label": "2 / 7",
+      "link": "/brand/BrandStory"
+    },
+    {
+      "image": "/legacy/a07c53844dba_64c859ce5b089.png",
+      "label": "3 / 7",
+      "link": "/brand/OurProcess"
+    },
+    {
+      "image": "/legacy/e7f91d93eb3f_22a9b4a913b09.png",
+      "label": "4 / 7",
+      "link": "/brand/thewhotBrewery"
+    },
+    {
+      "image": "/legacy/d6365dbfbc51_bf5d1bd2c13f7.png",
+      "label": "5 / 7",
+      "link": "/brand/Year-Round"
+    },
+    {
+      "image": "/legacy/7f358af509b2_a127aa83e7bc3.png",
+      "label": "6 / 7",
+      "link": "/brand/SpecialSeasonal"
+    },
+    {
+      "image": "/legacy/5f567589b3e1_24630cd6e785e.png",
+      "label": "7 / 7",
+      "link": "/brand/Pairing"
+    }
+  ],
+  "responsive": [
+    {
+      "heroHeight": 435.8125,
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "heroHeight": 402,
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "heroHeight": 545.5234375,
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "brewmaster": "ABOUT > Brewmaster, destination verified",
+  "wrap": "7 to 1 passed",
+  "values": {
+    "illustrationRemoved": true,
+    "originalPhotosPreserved": true,
+    "editableText": true,
+    "responsive": [
+      {
+        "columns": "343.203px",
+        "overflow": false,
+        "photos": true,
+        "width": 390
+      },
+      {
+        "columns": "210.609px 210.617px 210.609px",
+        "overflow": false,
+        "photos": true,
+        "width": 768
+      },
+      {
+        "columns": "401.062px 401.07px 401.07px",
+        "overflow": false,
+        "photos": true,
+        "width": 1440
+      }
+    ],
+    "build": "thewhot-store:values-update",
+    "contentCheck": {
+      "pages": 18,
+      "imageReferences": 201,
+      "internalLinks": 28,
+      "failures": []
+    }
+  }
+}
