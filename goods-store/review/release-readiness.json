@@ -14,7 +14,10 @@
     "Three rounds: 11 unit and 26 integration checks each; 69 layout checks each",
     "Native Medusa Admin login and persisted demo orders visible",
     "Images and archived brand main retained",
-    "Compose 5.5.1 standalone: committed configuration with isolated override; fresh DB initialization, all four services healthy, customer demo order and admin read passed"
+    "Compose 5.5.1 standalone: committed configuration with isolated override; fresh DB initialization, all four services healthy, customer demo order and admin read passed",
+    "Upload survives isolated Compose container recreation with exact original SHA256",
+    "Upload volume backup restored to fresh volume with exact original SHA256",
+    "Post-upload-module change: 26 targeted auth/product/inventory/demo-order integration checks passed; backend unchanged at candidate"
   ],
   "unresolvedCodeBlockers": [],
   "notVerified": [
@@ -54,5 +57,7 @@
   ],
   "actualServerDeployed": false,
   "verdict": "외부연동 제외 시연용 로컬 검증 완료, 서버 현장 사전점검 필요",
-  "composeSupplement": "compose-supplement/summary.json"
+  "composeSupplement": "compose-supplement/summary.json",
+  "candidateCommit": "b9fa6894f932041bf0da7771a552e68ad4973bc1",
+  "uploadPersistenceSupplement": "upload-persistence/candidate-link.json"
 }

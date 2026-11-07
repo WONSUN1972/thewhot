@@ -1,0 +1,31 @@
+{
+  "candidateCommit": "b9fa6894f932041bf0da7771a552e68ad4973bc1",
+  "testedBackendCommit": "168e6d793b1dfe49371f9279f20d9549aa87fd2a",
+  "scope": "Evidence reconciliation only; existing passed targeted tests reused, no fourth QA round",
+  "fullReviewRounds": 3,
+  "command": "git diff --exit-code 168e6d793b1dfe49371f9279f20d9549aa87fd2a..HEAD -- medusa goods-medusa compose.yaml",
+  "exitCode": 0,
+  "changedPathsSinceBackendTest": [
+    "goods-store/README.md",
+    "goods-store/review/home-update/main.png",
+    "goods-store/review/home-update/values.png",
+    "goods-store/review/home-update/verification.json",
+    "goods-store/review/index.html",
+    "goods-store/review/upload-persistence/integration.log",
+    "goods-store/review/upload-persistence/mounts.json",
+    "goods-store/review/upload-persistence/recreated-image.json",
+    "goods-store/review/upload-persistence/restored-image.json",
+    "goods-store/review/upload-persistence/summary.json",
+    "goods-store/review/upload-persistence/upload.log",
+    "goods-store/src/app/page.tsx",
+    "goods-store/src/app/style.css",
+    "goods-store/src/components/BrandNav.tsx",
+    "goods-store/src/components/BrandValues.tsx",
+    "goods-store/src/components/HomeHero.tsx",
+    "goods-store/src/content/home-slides.json"
+  ],
+  "evidence": "summary.json",
+  "historicalCommandExitCodes": "Not captured in original artifacts; not reconstructed or claimed. Existing result artifacts and 26 PASS lines retained.",
+  "result": "Backend/Compose unchanged; prior upload persistence and 26 integration results applicable to backend candidate",
+  "actualServerDeployed": false
+}
