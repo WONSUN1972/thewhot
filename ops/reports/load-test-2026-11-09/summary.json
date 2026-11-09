@@ -1,0 +1,90 @@
+{
+  "result": {
+    "at": "2026-11-09T08:08:53.841Z",
+    "scope": "GET-only HTTP test, HTML and product API; not browser rendering or image/JS download; 30 users with 1–2sec think time, then 30 concurrent API workers",
+    "phases": {
+      "30-users": {
+        "requests": 1180,
+        "errors": 0,
+        "p50": 6.221291999999721,
+        "p95": 54.851832999999715,
+        "max": 152.31762499999968,
+        "bytes": 28482085
+      },
+      "30-api-burst": {
+        "requests": 990,
+        "errors": 0,
+        "p50": 443.5000000000073,
+        "p95": 556.3948329999985,
+        "max": 800.6884170000048,
+        "bytes": 1544400
+      }
+    },
+    "routes": {
+      "/": {
+        "requests": 234,
+        "errors": 0,
+        "p50": 5.283916999999747,
+        "p95": 8.425333000001046,
+        "max": 14.432292000001326,
+        "bytes": 3237156
+      },
+      "/brand/BrandStory": {
+        "requests": 237,
+        "errors": 0,
+        "p50": 5.280083999998169,
+        "p95": 7.846000000001368,
+        "max": 15.436459000000468,
+        "bytes": 2713176
+      },
+      "/brand/Brewmaster": {
+        "requests": 236,
+        "errors": 0,
+        "p50": 5.858791000006022,
+        "p95": 8.780624999999418,
+        "max": 13.444250000000466,
+        "bytes": 5130640
+      },
+      "/brand/DesignbyUs": {
+        "requests": 237,
+        "errors": 0,
+        "p50": 6.6600409999991825,
+        "p95": 9.359000000000378,
+        "max": 16.264541999997164,
+        "bytes": 17032953
+      },
+      "/api/products": {
+        "requests": 236,
+        "errors": 0,
+        "p50": 47.18608300000051,
+        "p95": 82.13916700000027,
+        "max": 152.31762499999968,
+        "bytes": 368160
+      }
+    }
+  },
+  "memory": {
+    "maxCombinedMiB": 626.485,
+    "lastCombinedMiB": 594.5150000000001,
+    "maxCombinedCPU": 169.99,
+    "peaks": {
+      "thewhot-store-review": {
+        "peakMiB": 114.9,
+        "peakCPU": 14.22
+      },
+      "thewhot-medusa-review": {
+        "peakMiB": 380.2,
+        "peakCPU": 136.86
+      },
+      "thewhot-goods-local-redis": {
+        "peakMiB": 6.289,
+        "peakCPU": 0.55
+      },
+      "thewhot-goods-local-db": {
+        "peakMiB": 125.3,
+        "peakCPU": 22.7
+      }
+    },
+    "samples": 29
+  }
+}
