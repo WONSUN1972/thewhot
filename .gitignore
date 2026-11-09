@@ -4,3 +4,9 @@ __pycache__/
 /migration/*.zip
 /migration/thewhot-cafe24/review/
 /output/
+
+# Local Docker credentials and private database/media snapshots
+/.env
+/.env.*
+!/.env.example
+/ops/backups/
