@@ -55,3 +55,55 @@ DB는 트랜잭션 스냅샷, 업로드는 별도 파일 스냅샷이다. 완전
 HEAD에 포함됨을 확인했다. 기존 검토 컨테이너는 교체하지 않는다.
 
 백업 대상 DB 이름은 실행 중 앱의 DATABASE_URL과 대조한다. 컨테이너의 POSTGRES_DB는 초기 DB이므로 실제 앱 DB와 다를 수 있다.
+
+## new.thewhot.com HTTPS / 2026-11-10
+Caddy를 호스트 서비스로 실행하며 127.0.0.1:8790으로 프록시한다.
+인증서는 Caddy가 자동 발급·갱신한다. 별도 certbot 갱신 작업을 중복 설치하지 않는다.
+`systemctl is-enabled caddy` 및 `systemctl is-active caddy`가 모두 정상이어야 한다.
+인증서 저장 위치 `/var/lib/caddy/.local/share/caddy`를 유지한다. 개인키는 Git에 넣지 않는다.
+DNS A 레코드는 49.247.214.252 유지, 외부 80/443 및 서버의 DNS/HTTPS 통신 허용이 필요하다.
+현재 인증서 만료는 2027-02-08이며 실제 갱신 주기 도래 전 강제 재발급은 하지 않았다.
+
+추가 점검: `ops/check-tls.sh` → `/usr/local/sbin/thewhot-check-tls`,
+`ops/systemd/thewhot-tls-check.*` → `/etc/systemd/system/`에 설치한다.
+`systemctl enable --now thewhot-tls-check.timer`로 매일 한국시간 09시~09시10분에 검사한다.
+HTTPS 신뢰 검증 실패 또는 잔여기간 14일 이하는 서비스 실패로 기록한다.
+확인: `journalctl -u thewhot-tls-check.service`, `systemctl list-timers thewhot-tls-check.timer`.
+메일·메신저 알림은 연결하지 않았으므로 로그 확인 또는 추후 외부 모니터링 연결이 필요하다.
+
+## 소셜로그인 연결 준비 / 2026-11-10
+Google·카카오·네이버를 대상으로 `goods-store/src/integrations/social.ts`에
+설정 검사 및 준비 상태 모델을 추가했다. `.env.example`에 서버 전용 키 이름을 정의했다.
+현재는 준비 단계이며 키 입력만으로 활성화되지 않는다. 기존 이메일 테스트 로그인은 유지한다.
+Firebase 신규 설정은 수행하지 않았다. Medusa 고객 인증과 연결하는 구조를 우선 사용한다.
+
+예정 콜백 (아직 동작하는 API가 아니며 연결 구현 후 제공자 콘솔에 등록):
+- Google: https://new.thewhot.com/api/auth/social/google/callback
+- 카카오: https://new.thewhot.com/api/auth/social/kakao/callback
+- 네이버: https://new.thewhot.com/api/auth/social/naver/callback
+
+연결에 필요한 운영자 준비:
+1. 각 제공자의 개발자 콘솔에서 더홋 소유 앱 등록 및 웹사이트 주소 설정.
+2. 앱 ID/Client ID와 서버용 Client Secret을 서버 비공개 환경 파일에 저장. 채팅/Git에 공유하지 않는다.
+3. 개인정보처리방침·서비스약관 URL, 동의 화면, 제공자 심사/테스트 계정을 확인한다.
+4. 고객 식별에 필요한 최소 항목만 요청하고 이메일이 없거나 동의가 거절된 경우도 처리한다.
+
+구현·활성화 게이트:
+- 제공자별 OAuth 어댑터 및 서버 콜백, 일회용 state·PKCE·만료·재사용 방지 구현.
+- 콜백의 사용자 입력 이메일을 신뢰하지 않고 제공자 검증 결과와 고유 subject로 식별.
+- Medusa 인증 모듈을 통해 고객을 생성·연결하며 관리자 role을 소셜가입으로 부여하지 않는다.
+- 같은 이메일의 기존 계정은 자동 병합하지 않고 기존 계정 재인증 후 연결.
+- 기존 SameSite=strict 회원 세션과 별도로 OAuth 왕복용 제한된 수명의 쿠키 정책 검토.
+- 인증 성공/취소/실패/중복콜백/탈퇴/기존가입자 연결 및 로그아웃 통합 테스트 후 활성화.
+- OAuth 토큰·비밀키를 브라우저 저장소나 로그로 출력하지 않는다.
+
+이번 변경 기준: codex/goods-local, origin/main 32cabb15924e941f041795d8432abea0ac7cc6db
+fetch 및 HEAD 포함 확인. SSL 점검은 서버 적용, 소셜 준비 코드는 로컬에만 존재한다.
+
+추가 제공자 준비: 2026-11-10 사용자 요청에 따라 Apple·Facebook 설정 항목을 추가했다.
+Apple은 Services ID, Team ID, Key ID, 서버 전용 .p8 키 경로를 준비한다.
+예정 콜백은 /api/auth/social/apple/callback 및 /api/auth/social/facebook/callback이다.
+Apple 웹 연결은 Apple 개발자 계정의 Sign in with Apple App ID / Services ID 설정을 확인해야 한다.
+Instagram은 일반 고객 소셜로그인 제공자로 포함하지 않는다. 프로 계정용 콘텐츠 연동은 별도 검토한다.
+단위 테스트 18개 통과. 로컬 .next/types에 남아 있던 중복 생성 파일(* 3.ts)은
+/private/tmp/thewhot-next-duplicate-types에 보존 이동해 타입 중복을 해소했다.

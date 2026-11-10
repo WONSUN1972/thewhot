@@ -1,0 +1,8 @@
+[Unit]
+Description=Daily THE WHOT HTTPS certificate check
+[Timer]
+OnCalendar=*-*-* 09:00:00 Asia/Seoul
+RandomizedDelaySec=600
+Persistent=true
+[Install]
+WantedBy=timers.target

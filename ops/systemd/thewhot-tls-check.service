@@ -1,0 +1,12 @@
+[Unit]
+Description=THE WHOT HTTPS certificate expiry check
+Wants=network-online.target
+After=network-online.target caddy.service
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/thewhot-check-tls
+DynamicUser=yes
+NoNewPrivileges=yes
+PrivateTmp=yes
+ProtectSystem=strict
+ProtectHome=yes
