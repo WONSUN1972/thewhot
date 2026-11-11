@@ -1,5 +1,6 @@
 import {NextRequest,NextResponse} from 'next/server';
 import {medusa,pool,ApiError,session,login,digest,catalog,orderView} from '@/lib/medusa';
+import {registrationDetails} from '@/lib/registration';
 import {validateCart,shipping} from '@/lib/domain';
 export const runtime='nodejs';
 const json=NextResponse.json;
@@ -26,8 +27,9 @@ export async function POST(req:NextRequest){
   const role=path==='/api/admin/login'?'admin':'customer',actor=role==='admin'?'user':'customer';
   if(path==='/api/register'){
    if(name.length<1||name.length>40||password.length<10||email.endsWith('@local.invalid'))throw new ApiError('이름과 10자 이상의 비밀번호를 확인해 주세요.');
+   let details;try{details=registrationDetails(body)}catch(e){throw new ApiError((e as Error).message)}
    const {token}=await medusa('/auth/customer/emailpass/register',{email,password});
-   await medusa('/store/customers',{email,first_name:name},token);
+   await medusa('/store/customers',{email,first_name:details.name,phone:details.phone,metadata:details.metadata},token);
   }
   const {token}=await medusa('/auth/'+actor+'/emailpass',{email,password});return login(token,role)
  }
