@@ -6,8 +6,9 @@ describe('OAuth boundaries',()=>{
  it('rejects alternate callback',()=>expect(()=>kakaoLocation('https://kauth.kakao.com/oauth/authorize?redirect_uri=https://evil.test&state='+ 'a'.repeat(64),'https://new.thewhot.com')).toThrow());
 });
 const mocks=vi.hoisted(()=>({medusa:vi.fn(),query:vi.fn(),login:vi.fn()}));
-vi.mock('../src/lib/medusa',()=>({medusa:mocks.medusa,pool:{query:mocks.query},digest:(s:string)=>s,login:mocks.login,ApiError:class extends Error{}}));
+vi.mock('../src/lib/medusa',()=>({medusa:mocks.medusa,pool:{query:mocks.query},digest:(s:string)=>s,login:mocks.login,ApiError:class extends Error{constructor(message:string,public status=400,public code?:string){super(message)}}}));
 import {NextRequest,NextResponse} from 'next/server';
+import {ApiError} from '../src/lib/medusa';
 import {GET} from '../src/app/api/auth/social/kakao/callback/route';
 describe('Kakao callback integration with mocked backend',()=>{
  beforeEach(()=>{vi.resetAllMocks();process.env.APP_ORIGIN='https://new.thewhot.com';process.env.KAKAO_ENABLED='true'});
@@ -19,5 +20,6 @@ describe('Kakao callback integration with mocked backend',()=>{
   const session=NextResponse.json({ok:true});session.cookies.set('whot-session','opaque',{secure:true,httpOnly:true});mocks.login.mockResolvedValue(session);
   const r=await GET(request());expect(r.status).toBe(303);expect(r.headers.get('location')).toBe('https://new.thewhot.com/#account');expect(mocks.login).toHaveBeenCalledWith('refreshed','customer');expect(r.cookies.get('whot-session')?.value).toBe('opaque');
  });
+ it('shows email consent error instead of generic connection failure',async()=>{mocks.query.mockResolvedValue({rowCount:1});mocks.medusa.mockRejectedValueOnce(new ApiError('로그인 실패',401,'KAKAO_EMAIL_REQUIRED'));expect((await GET(request())).headers.get('location')).toContain('social_error=email')});
  it('never merges existing email after registration conflict',async()=>{mocks.query.mockResolvedValue({rowCount:1});const token='x.'+Buffer.from(JSON.stringify({actor_type:'customer',auth_identity_id:'a',user_metadata:{email:'existing@example.com'}})).toString('base64url')+'.x';mocks.medusa.mockResolvedValueOnce({token}).mockRejectedValueOnce(Error('conflict'));expect((await GET(request())).headers.get('location')).toContain('account');expect(mocks.login).not.toHaveBeenCalled()});
 });

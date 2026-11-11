@@ -3,11 +3,11 @@ import {createHash,randomBytes} from 'node:crypto';
 import {NextRequest,NextResponse} from 'next/server';
 const globalDb=globalThis as unknown as {medusaAdapterPool?:Pool};
 export const pool=globalDb.medusaAdapterPool??=new Pool({connectionString:process.env.DATABASE_URL,max:8});
-export class ApiError extends Error {constructor(message:string,public status=400){super(message)}}
+export class ApiError extends Error {constructor(message:string,public status=400,public code?:string){super(message)}}
 export async function medusa(path:string,body?:unknown,bearer?:string){
  const r=await fetch((process.env.MEDUSA_BACKEND_URL||'http://127.0.0.1:9000')+path,{method:body===undefined?'GET':'POST',headers:{'Content-Type':'application/json',...(path.startsWith('/store/')?{'x-publishable-api-key':process.env.MEDUSA_PUBLISHABLE_KEY||''}:{}),...(bearer?{Authorization:'Bearer '+bearer}:{})},body:body===undefined?undefined:JSON.stringify(body),cache:'no-store',signal:AbortSignal.timeout(30000)});
  const data=await r.json().catch(()=>({}));
- if(!r.ok)throw new ApiError(r.status>=500?'상품 서비스 연결을 확인해 주세요.':r.status===401?'이메일 또는 비밀번호를 확인해 주세요.':data.message||'요청을 확인해 주세요.',r.status);
+ if(!r.ok)throw new ApiError(r.status>=500?'상품 서비스 연결을 확인해 주세요.':r.status===401?'이메일 또는 비밀번호를 확인해 주세요.':data.message||'요청을 확인해 주세요.',r.status,data.message==='KAKAO_EMAIL_REQUIRED'?'KAKAO_EMAIL_REQUIRED':undefined);
  return data;
 }
 export const digest=(v:string)=>createHash('sha256').update(v).digest('hex');

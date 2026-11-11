@@ -18,7 +18,7 @@ export async function GET(req:NextRequest){
   if(req.nextUrl.searchParams.has('error'))return finish('cancelled');
   const code=req.nextUrl.searchParams.get('code');if(!code || code.length>2048)return finish('expired');
   let token:string;
-  try{({token}=await medusa('/auth/customer/kakao/callback?'+new URLSearchParams({code,state:state!})))}catch(e){return finish(e instanceof ApiError&&e.message.includes('KAKAO_EMAIL_REQUIRED')?'email':'unavailable')}
+  try{({token}=await medusa('/auth/customer/kakao/callback?'+new URLSearchParams({code,state:state!})))}catch(e){return finish(e instanceof ApiError&&e.code==='KAKAO_EMAIL_REQUIRED'?'email':'unavailable')}
   // Token received only from the trusted private Medusa backend, never from the browser.
   const claims=JSON.parse(Buffer.from(token.split('.')[1],'base64url').toString());
   if(claims.actor_type!=='customer' || !claims.auth_identity_id)return finish('unavailable');
