@@ -11,3 +11,8 @@ CREATE TABLE IF NOT EXISTS whot_demo_requests (
 CREATE TABLE IF NOT EXISTS whot_audit (
  id bigserial PRIMARY KEY, action text NOT NULL, created_at timestamptz NOT NULL DEFAULT now()
 );
+
+CREATE TABLE IF NOT EXISTS whot_oauth_attempts (
+ state_hash text PRIMARY KEY,
+ expires_at timestamptz NOT NULL DEFAULT now()+interval '10 minutes'
+);

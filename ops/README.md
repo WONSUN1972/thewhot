@@ -107,3 +107,20 @@ Apple 웹 연결은 Apple 개발자 계정의 Sign in with Apple App ID / Servic
 Instagram은 일반 고객 소셜로그인 제공자로 포함하지 않는다. 프로 계정용 콘텐츠 연동은 별도 검토한다.
 단위 테스트 18개 통과. 로컬 .next/types에 남아 있던 중복 생성 파일(* 3.ts)은
 /private/tmp/thewhot-next-duplicate-types에 보존 이동해 타입 중복을 해소했다.
+
+## Kakao implementation / 2026-11-11
+Kakao auth provider implemented in Medusa; credentials are backend-only.
+Storefront POST /api/auth/social/kakao/start uses same-origin validation and a 10-minute
+HttpOnly Secure SameSite=Lax browser state cookie. Callback consumes a PostgreSQL attempt
+atomically, then exchanges the code through the private Medusa provider. Provider uses
+Kakao user ID for identity and verified email for first-time registration. Existing email
+conflicts do not merge accounts. Customer session stays HttpOnly/Secure/SameSite=Strict.
+Provider rejects administrator authentication. Kakao access tokens are not persisted.
+Enable KAKAO_ENABLED=true in both services; set backend SOCIAL_KAKAO_CLIENT_ID,
+SOCIAL_KAKAO_CLIENT_SECRET and KAKAO_CALLBACK_URL. Apply adapter migration before restart.
+No new customer is created by deployment; actual login requires user consent in Kakao.
+Future apex migration: change APP_ORIGIN and KAKAO_CALLBACK_URL together after DNS/TLS
+are ready; leave both callback addresses registered in Kakao during transition.
+Local verification: 24 storefront tests (including mocked callback integration), 5 provider
+tests, frontend production build and Medusa production build passed. Actual provider
+consent flow still requires browser verification with the configured app.
