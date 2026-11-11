@@ -124,3 +124,12 @@ are ready; leave both callback addresses registered in Kakao during transition.
 Local verification: 24 storefront tests (including mocked callback integration), 5 provider
 tests, frontend production build and Medusa production build passed. Actual provider
 consent flow still requires browser verification with the configured app.
+
+Server verification: release fb940ea deployed at /srv/thewhot/releases/fb940ea,
+project thewhot-test unchanged. Previous images tagged before-kakao and DB backed up
+in /root/thewhot-backups/before-kakao-20261111.dump. Root/app environment files mode 600.
+HTTPS /, /api/health, /api/products return 200; /api/admin stays 404. Foreign-origin
+login start returns 403, invalid callback returns the expired-request redirect, valid
+start returns 303 to kauth.kakao.com with the expected new.thewhot.com callback.
+Browser button reached accounts.kakao.com login page. Real user login, consent,
+code exchange, and customer creation remain unverified until user signs in.
